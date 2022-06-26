@@ -19,47 +19,90 @@ navTogglerb.addEventListener('click', navToggles);
 
 function navToggles(){
 
-    const nav = document.querySelector(".shops");
-    nav.classList.toggle("showshops");
+    const nav = document.querySelector(".ninth");
+    nav.classList.toggle("closelist");
    
 }
 
 
 
-function showNotification(){
+const navTogglerc = document.querySelector(".buttony");
 
-    const notification = new Notification("Message from HANDOUTS STORE!", {
+navTogglerc.addEventListener('click', navToggley);
 
-        body: "We now have Handouts for Microbiology Second Semester",
+function navToggley(){
 
-        icon: "https://www.handouts.store/images/header.jpeg"
+    const nav = document.querySelector(".ninth");
+    nav.classList.toggle("closelist");
+   
+}
 
+
+const navTogglerd = document.querySelector(".buttoncloser");
+
+navTogglerd.addEventListener('click', navToggled);
+
+function navToggled(){
+
+    const nav = document.querySelector(".ads");
+    nav.classList.toggle("showads");
+   
+}
+
+
+
+var responsiveSlider = function() {
+
+    var slider = document.getElementById("slider");
+    var sliderWidth = slider.offsetWidth;
+    var slideList = document.getElementById("slideWrap");
+    var count = 1;
+    var items = slideList.querySelectorAll("li").length;
+    var prev = document.getElementById("prev");
+    var next = document.getElementById("next");
+    
+    window.addEventListener('resize', function() {
+      sliderWidth = slider.offsetWidth;
     });
-
-    notification.onclick = (e) => {
-
-        window.location.href = "https://www.handouts.store/handouts/100lvlsls/100LVLMCB/";
-
+    
+    var prevSlide = function() {
+      if(count > 1) {
+        count = count - 2;
+        slideList.style.left = "-" + count * sliderWidth + "px";
+        count++;
+      }
+      else if(count = 1) {
+        count = items - 1;
+        slideList.style.left = "-" + count * sliderWidth + "px";
+        count++;
+      }
     };
-
-}
-
-console.log(Notification.permission);
-
-if (Notification.permission === "granted"){
-
-    showNotification();
-
-}  else if (Notification.permission !== "denied"){
-
-    Notification.requestPermission().then(permission => {
-
-        if (permission === "granted"){
-
-            showNotification();
-
-        }
-
+    
+    var nextSlide = function() {
+      if(count < items) {
+        slideList.style.left = "-" + count * sliderWidth + "px";
+        count++;
+      }
+      else if(count = items) {
+        slideList.style.left = "0px";
+        count = 1;
+      }
+    };
+    
+    next.addEventListener("click", function() {
+      nextSlide();
     });
-
-}
+    
+    prev.addEventListener("click", function() {
+      prevSlide();
+    });
+    
+    setInterval(function() {
+      nextSlide()
+    }, 8000);
+    
+    };
+    
+    window.onload = function() {
+    responsiveSlider();  
+    }
