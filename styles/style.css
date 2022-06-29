@@ -52,12 +52,18 @@ nav ul li a:hover{
 .first ul li h1{
     font-size: 35px;
     color: white;
+    padding: 5px;
     font-family:sans-serif;
+    border-radius: 10px;
+    background-color: rgb(5, 132, 141);
 }
 .first ul li p{
     font-size: 20px;
-    color: white;
+    color: blue;
     font-family:sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(223, 145, 43);
 }
 
 .second{
@@ -452,7 +458,7 @@ buttonz {
     left: 200px;
     right: 200px;
     bottom: 100px;
-    top: 30px;
+    top: 10px;
     background-color: none;
     display: block;
     text-align: center;
@@ -517,7 +523,7 @@ buttonz {
 }
 .desktopview{
     width: 900px;
-    height: 450px;
+    height: 520px;
     position: relative;
     left: -15px;
 }
@@ -537,6 +543,11 @@ buttonz {
 }
 .tags{
     display: flex;
+}
+.bannerpic{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
 }
 
 /*.slider ul{
@@ -691,6 +702,11 @@ buttonz {
        
         text-align: center;
     }
+    .bannerpic{
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+    }
 
 
 
@@ -809,6 +825,11 @@ buttonz {
         
         text-align: center;
     }
+    .bannerpic{
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+    }
 
 
 
@@ -916,7 +937,12 @@ buttonz {
         
         text-align: center;
     }
-
+    .bannerpic{
+        width: 800px;
+        height: 400px;
+        text-align: center;
+    }
+  
 
 
 
@@ -960,7 +986,7 @@ buttonz {
     }
     .navbar{
      
-        width: 100%;
+        width: auto;
         background-color: white;
         display: block;
         list-style: none;
@@ -969,9 +995,13 @@ buttonz {
     }
     .navbarbaa{
         display: none;
+        width: auto;
         transition: all .5s ease;
     }
-    .navbar li{
+    .navbar ul li{
+        width: auto;
+    }
+    .navbar ul{
         width: auto;
     }
     nav {
@@ -985,8 +1015,10 @@ buttonz {
     }
     nav ul li{
         border-bottom: 1px solid blue;
+        width: auto;
     }
     nav ul li a{
+        width: auto;
         text-decoration: none;
         color: blue;
         line-height: 50px;
@@ -1116,6 +1148,9 @@ buttonz {
       
         text-align: center;
     }
+    buttonx{
+        width: 820px;
+    }
 
 
 
@@ -1163,6 +1198,14 @@ buttonz {
         width: fit-content;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .bannerpic{
+        width: 700px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 780px;
     }
 
 }
@@ -1321,6 +1364,9 @@ buttonz {
     .desktopview{
         width: 880px;
         
+    }
+    buttonx{
+        width: 755px;
     }
 
 
@@ -1510,6 +1556,14 @@ buttonz {
         width: fit-content;
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .bannerpic{
+        width: 600px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 680px;
     }
 
 
@@ -1744,6 +1798,14 @@ buttonz {
         padding-left: 50px;
         padding-right: 50px;
     }
+    .bannerpic{
+        width: 700px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 650px;
+    }
 
 
 
@@ -1815,13 +1877,13 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 1px solid red;
     }
     nav ul li a{
         text-decoration: none;
         color: blue;
         line-height: 50px;
-        width: 100%;
+        width: auto;
         letter-spacing: 0.2em;
        
     }
@@ -1833,6 +1895,7 @@ buttonz {
     .first ul li h1{
         font-size: 30px;
         color: white;
+        width: 400px;
         font-family:sans-serif;
     }
     .first ul li p{
@@ -1946,6 +2009,15 @@ buttonz {
         color: rgb(36, 192, 184);
         text-decoration: none;
     }
+    .bannerpic{
+        width: 650px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 600px;
+    }
+
 
 
 
@@ -1998,6 +2070,9 @@ buttonz {
        padding-top: 120px;
         height: 300px;
     }
+    .navbar{
+        width: auto;
+    }
     nav ul li a:hover{
         border-top: none;
         color: rgba(0, 0, 255, 0.452);
@@ -2017,8 +2092,9 @@ buttonz {
         right: 50px;
         top: 40px;
     }
+    
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 1px solid blue;
     }
     nav ul li a{
         text-decoration: none;
@@ -2039,25 +2115,34 @@ buttonz {
     .first ul li h1{
         font-size: 30px;
         color: white;
-        width: 600px;
+        width: 500px;
+        text-align: left;
         font-family:sans-serif;
     }
     .first ul li p{
-        font-size: 15px;
+        font-size: 16px;
         color: white;
         width: 500px;
+        text-align: left;
         font-family:sans-serif;
     }
     .second ul li h1{
         font-size: 25px;
+        width: auto;
         color: rgb(72, 102, 201);
         font-family: 'Times New Roman', Times, serif;
     }
     .second{
         position: relative;
         top: 50px;
+        width: auto;
+    }
+    .second ul li{
+        margin: 0;
+        width: auto;
     }
     .second ul li p{
+        width: auto;
         font-size: 20px;
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
@@ -2191,6 +2276,14 @@ buttonz {
       
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .bannerpic{
+        width: 520px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 490px;
     }
 
 
@@ -2449,6 +2542,15 @@ buttonz {
         padding-left: 50px;
         padding-right: 50px;
     }
+    .bannerpic{
+        width: 400px;
+        height: 300px;
+        text-align: center;
+    }
+    buttonx{
+        width: 410px;
+    }
+
 
 
 
@@ -2510,6 +2612,9 @@ buttonz {
        padding-top: 120px;
         height: 300px;
     }
+    .navbar ul li{
+        width: auto;
+    }
     nav ul li a:hover{
         border-top: none;
         color: rgba(0, 0, 255, 0.452);
@@ -2518,7 +2623,7 @@ buttonz {
     }
     .navbarbaa{
         display: none;
-        transition: .5s;
+        transition: all .5s ease;
     }
     nav {
         display: block;
@@ -2530,13 +2635,13 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 0.5px solid blue;
     }
     nav ul li a{
         text-decoration: none;
         color: blue;
         line-height: 50px;
-        width: 100%;
+        width: auto;
         letter-spacing: 0.2em;
        
     }
@@ -2716,6 +2821,15 @@ buttonz {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .bannerpic{
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+    buttonx{
+        width: 330px;
+    }
+
 
 
 
@@ -3018,6 +3132,17 @@ buttonz {
     .tags{
         height: 50px;
     }
+    .bannerpic{
+        width: 320px;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+    }
+    buttonx{
+        width: 290px;
+    }
+
 
 
 
@@ -3314,6 +3439,16 @@ buttonz {
     .tags{
         height: 50px;
     }
+    .bannerpic{
+        width: 260px;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+    }
+    buttonx{
+        width: 240px;
+    }
 
 
 
@@ -3388,7 +3523,7 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 0.5px solid blue;
     }
     nav ul li a{
         text-decoration: none;
@@ -3396,6 +3531,7 @@ buttonz {
         line-height: 50px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         width: 100%;
+        font-size: 15px;
         letter-spacing: 0.2em;
        
     }
@@ -3414,7 +3550,7 @@ buttonz {
         text-align: center;
     }
     .first ul li h1{
-        font-size: 30px;
+        font-size: 22px;
         color: white;
         width: auto;
         display: block;
@@ -3422,7 +3558,7 @@ buttonz {
         font-family:sans-serif;
     }
     .first ul li p{
-        font-size: 15px;
+        font-size: 13px;
         color: white;
         width: auto;
         text-align: left;
@@ -3634,6 +3770,19 @@ buttonz {
     .tags{
         height: 50px;
         width: 200px;
+    }
+    .bannerpic{
+        width: 200px;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+    }
+    .fourth{
+        display: none;
+    }
+    buttonx{
+        width: 180px;
     }
 
 
