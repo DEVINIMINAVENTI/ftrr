@@ -2908,7 +2908,16 @@ left: -15px;
         height: 100px;
         width: 80%;
     }
-
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 5px;
+}
 
 
 
@@ -3224,7 +3233,16 @@ overflow: hidden;
     buttonx{
         width: 290px;
     }
-
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 3px;
+}
 
 
 
@@ -3531,6 +3549,16 @@ overflow: hidden;
     buttonx{
         width: 240px;
     }
+    .streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 3px;
+}
 
 
 
@@ -3866,7 +3894,16 @@ overflow: hidden;
     buttonx{
         width: 180px;
     }
-
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 3px;
+}
 
 
 
