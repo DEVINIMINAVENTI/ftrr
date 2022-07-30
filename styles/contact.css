@@ -1,97 +1,261 @@
 *{
     margin: auto;
 }
-body{
-    background-color: whitesmoke;
-}
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: -2px;
-    background-image: linear-gradient(120deg, #2d2d2d 30%, blue 50%, #2d2d2d 70%);
-}
-.navbar h1{
-    font-size: 25px;
-    color: whitesmoke;
-    padding-left: 80px;
-    padding-top: 15px;
-}
-.navbar ul{
-    list-style-type: none;
+nav{
+    width: auto;
+    min-height: 50px;
+    background-color:  white;
     display: flex;
-    background-color: none;
-    margin-right: 80px;
-    position: fixed;
-    top: 0px;
-    left: 750px;
-    width: fit-content;
-    font-size: 10px;
-    color: whitesmoke;
+    height: min-content;
 }
-.navbar a{
-    color: whitesmoke;
+.logo{
+    width: 220px;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    padding: 7px;
     text-decoration: none;
-   padding: 15px;
+    color: blue;
+    letter-spacing: 0.1em;
     
 }
-span{
-    color: rgb(20, 211, 229);
+nav ul li a:hover{
+    border-top: 2px solid red;
+    color: rgba(0, 0, 255, 0.452);
+    border-bottom: 2px solid red;
 }
-spanv{
-    color: blue;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.first{
+   width: auto;
+   height: 300px;
+   display: block;
+   background-color: darkblue;
 }
-span:hover{
-    visibility: visible;
+.bacg{
+    width: 100%;
+    height: 300px;
 }
-spanb{
-    color: red;
-}
-a.active, a:hover{
-    background-color: none;
-    border: 1px solid white;
-    transition: .5s;
-
-}
-
-.contacts{
-    width: 600px;
+.first ul{
+    list-style: none;
+    text-align: center;
     position: relative;
-    top: 60px;
-    background-color: #a4e388;
-    text-align: center;
-    display: block;
-
+    top: -250px;
+    
+    width: 700px;
 }
-.textarea,
-.email{
-    width: 400px;
-    border: 5px solid grey;
-    height: 40px;
-    display: block;
+.first ul li{
+    padding-top: 17px;
 }
-.label{
-    display: block;
-    width: 500px;
-    background-color: none;
-    height: fit-content;
-    line-height: 15px;
+.first ul li h1{
+    font-size: 35px;
+    color: white;
+    padding: 5px;
+    font-family:sans-serif;
+    border-radius: 10px;
+    background-color: rgb(5, 132, 141);
 }
-.label h1{
+.first ul li p{
     font-size: 20px;
-    color: brown;
-    text-align: center;
-    letter-spacing:  0.2em;
-    word-spacing: 0.2em;
+    color: blue;
+    font-family:sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(223, 145, 43);
 }
 
-.pic{
-    width: 500px;
-    height: 270px;
-    border-radius: 20px;
-    user-select: none;
+.second{
+    width: auto;
+    height: fit-content;
+
+}
+.second ul{
+    list-style: none;
+    display: block;
+    text-align: center;
+    
+}
+.second ul li h1{
+    font-size: 30px;
+    color: rgb(72, 102, 201);
+    font-family: 'Times New Roman', Times, serif;
+}
+.second ul li p{
+    font-size: 20px;
+    color: #2d2d2d;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.third{
+    width: auto;
+    height: fit-content;
+    background-color: whitesmoke;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    
+}
+.third ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+.third ul li{
+    width: 280px;
+    height: 220px;
+    
+    background-color: peru;
+}
+.third ul li:hover{
+    border: 2px solid blue ;
+}
+.third ul li p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+}
+.third ul li a{
+    text-decoration: none;
+}
+.pica{
+    width: 280px;
+    height: 150px;
+}
+
+.fourth{
+    width: auto;
+    height: fit-content;
+    padding-top: 30px;
+}
+.fourth ul{
+    list-style: none;
+    display: block;
+    text-align: center;
+    
+}
+.fourth ul li h1{
+    font-size: 30px;
+    color: rgb(72, 102, 201);
+    font-family: 'Times New Roman', Times, serif;
+}
+.fourth ul li p{
+    font-size: 20px;
+    color: #2d2d2d;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.fifth{
+    width: auto;
+    height: fit-content;
+    background-color: whitesmoke;
+    position: relative;
+    top: 30px;
+    
+}
+.fifth ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+.fifth ul li{
+    width: 280px;
+    height: 220px;
+    
+    background-color: #2d2d2d;
+}
+.fifth ul li p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+}
+.fifth ul li a{
+    text-decoration: none;
+}
+
+
+
+.sixth{
+    width: auto;
+    height: 150px;
+    background-color: rgb(38, 56, 114);
+    padding-top: 30px;
+}
+.sixth ul{
+    list-style: none;
+    display: block;
+    text-align: center;
+    
+}
+.sixth ul li h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sixth ul li h3{
+    font-size: 20px;
+    color: #2d2d2d;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sixth ul li h3 a{
+    width: 200px;
+    background-color: rgb(43, 159, 226);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.seventh{
+    width: auto;
+    display: flex;
+    height: 300px;
+    background-color: #2d2d2d;
+}
+.seventh ul{
+    list-style: none;
+    display: block;
+    position: relative;
+    top: 50px;
+}
+.seventh ul h1{
+    padding-bottom: 20px;
+}
+.seventh ul h1 {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+}
+.seventh ul li a{
+    font-size: 17px;
+    color: rgb(36, 192, 184);
+    text-decoration: none;
+}
+
+
+
+.eight{
+    width: auto;
+    height: 250px;
+    text-align: center;
+    background-color: #2d2d2d;
+}
+.footerpic{
+    width: 400px;
+    height: 250px;
 }
 
 button {
@@ -121,7 +285,7 @@ button {
 .nav-toggler{
     height: 34px;
     width: 44px;
-    background-color: #2d2d2d;
+    background-color: black;
     border-radius: 4px;
     cursor: pointer;
     position: fixed;
@@ -184,109 +348,345 @@ buttonx {
     top: 0px;
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
-
-
-/*nav togger b*/
-
-
-.nav-toggler{
-    right: 20PX;
-}
-
-.footer{
-    position: fixed;
-    background-color: peru;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-
-    bottom: 0px;
-}
-.footer h1{
-    font-size: 22px;
-    color: rgb(20, 211, 229);
-}
-.morebtn{
-    width: fit-content;
-  
-
-}
-
-
-
-
-.shops{
-    right: 0px;
-    left: 0px;
-    height: 500px;
-    background-color:  rgb(49, 60, 70);
-    position: fixed;
-    top: 100px;
-    
-}
-
-.showshops{
-    visibility: hidden;
-}
-
-.shops ul{
-    display: flex;
-    list-style-type: none;
-    padding-top: 6px;
-    text-align: left;
-    height: 50px;
-    background-color: rgb(49, 60, 70);
-   
-}
-.shops ul li a{
-    text-decoration: none;
-    font-size: 20px;
-    background-color: rgb(49, 60, 70);
-    border: 1px solid white;
-    text-align: left;
-    padding: 10px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
-.shops ul li a:hover{
-    color: red;
-    border: 2.5px solid greenyellow;
-    transition: .5;
-}
-
-.javascripttest{
+.aboutinfo{
     width: auto;
-    height: 100px;
-    position: relative;
-    top: 550px;
-    background-color: #a4e388;
+    height: fit-content;
+    background-color: #676565;
 }
-.x{
+.aboutinfo h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.aboutinfo p{
+    font-size: 20px;
+    color: rgb(0, 255, 234);
+    text-align: left;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.aboutinfo p a{
+    color: white;
+    text-decoration: none;
+}
+
+.ninth{
+    width: auto;
+    background-color: #800066;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    overflow-x: auto;
+   
+    right: 0px;
+}
+.closelist{
     visibility: hidden;
 }
-.javascripttest ul{
+.ninth ul{
+    display: flex;
+    list-style: none;
+}
+.vidlist li{
+    width: 360px;
+    height: 500px;
+}
+.vids{
+    width: 360px;
+    height: 500px;
+}
+buttony {
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#800080);
+    background-color: #001e80;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #001e80;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    user-select: none;
+    line-height: 20px;
+    top: 50px;
+    right: 0px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+buttonz {
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#800080);
+    background-color: #001e80;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #001e80;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    user-select: none;
+    line-height: 20px;
+    top: 50px;
+    right: 0px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.closeads{
+    display: none;
+}
+.ads{
+    width: auto;
+    position: fixed;
+    left: 200px;
+    right: 200px;
+    bottom: 100px;
+    top: 10px;
+    background-color: none;
     display: block;
     text-align: center;
+}
+.tags{
+    display: flex;
+    list-style: none;
+    padding-top: px;
+    height: 100px;
+    background-color: #2d2d2d;
+    border-radius: 20px;
+}
+
+.buttonclose {
+    width: 150px;
+    font-size: 25px;
+    width: 350px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid white;
+    padding: 15px;
+    color: black;
+    font-family: cursive;
+    letter-spacing: 0.2em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buttoncloser {
+    width: 150px;
+    font-size: 25px;
+    width: 350px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid white;
+    padding: 15px;
+    color: black;
+    font-family: cursive;
+    letter-spacing: 0.2em;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.buttonopen{
+    font-size: 25px;
+    width: fit-content;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid white;
+    padding: 15px;
+    color: black;
+    font-family: cursive;
+    letter-spacing: 0.2em;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+}
+.closeads{
+    display: none;
+}
+.showads{
+    display: block;
+}
+.desktopview{
+    width: 900px;
+    height: 520px;
+    position: relative;
+    left: -15px;
+}
+.slider{
+    width: fit-content;
+    height: 450px;
+    border-radius: 20px;
+    background-color: none;
+    
+    bvox-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.slider ul{
+    list-style: none;
+}
+.mobileview{
+    display: none;
+}
+.tags{
+    display: flex;
+}
+.bannerpic{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+
+.secondcon{
+
+  
+}
+.contacts{
+    width: 100%;
+    height: 500px;
+}
+.contacts .backdp{
+    width: 100%;
+  
+}
+.contacts ul{
+    width: 700px;
+    position: relative;
+    top: -600px;
+    left: -250px;
+    background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+    text-align: center;
+    box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+    border-radius: 20px;
+    height: fit-content;
+    display: block;
+
+}
+.textarea,
+.email{
+    width: 550px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 550px;
+    background-color: none;
+    height: fit-content;
+    line-height: 15px;
+}
+.label h1{
+    font-size: 20px;
     color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+
+.pic{
+    width: 600px;
+    height: 270px;
+    border-radius: 20px;
     user-select: none;
-    font-size: 30px;
-    text-transform: uppercase;
-}
-.y{
-    visibility: visible;
 }
 
+button {
+    width: 180px;
+    height: 31px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#800080);
+    background-color: #800080;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #800080;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    user-select: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
 
-
-
-
-
-
-
-
-
-
-
+/*.slider ul{
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 40px;
+}
+.slider ul li{
+    position: relative;
+    height: 100%;
+    float: left;
+}
+#slider #prev, #slider #next{
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0,0,0.6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+.preva{
+    position: absolute;
+    left: -10px;
+    top: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    display: none;
+}
+.nexta{
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+#slider #prev{
+    left: 10px;
+}
+#slider #next{
+    right: 10px;
+}
+*/
 
 
 
@@ -301,1146 +701,3309 @@ buttonx {
 
 
 @media screen and (max-width: 1150px) {
-    *{
-        width: 1150px;
-    }
-    body{
-        width: 1150px;
-    }
-    .navbar{
-        width: 1150px;
-        height: 55px;
-    }
-    .navbar ul{
-        width: 220px;
-        background-color: #800080;
-        display: block;
-        line-height: 50px;
-        position: fixed;
-        right: -180px;
-        top: 50px;
-        text-align: left;
-      
-        
-    }
-    .nav-toggler{
-        display: block;
-        position: fixed;
-        right: 5px;
-        top: -px;
-        visibility: visible;
-    }
-    .nav-togglerb{
-        display: block;
-    }
-    .navbar h1{
-        position: relative;
-        left: -40px;
-        
-    }
-    .navbar h1 a{
-        font-size: 20px;
-    }
-   
-    .navbaraaa{
-        visibility: visible;
-    }
-    .navbar a{
-        text-align: right;
-    }
-    .sidebar {
-        visibility: hidden;
-    }
-    .sidebarb{
-       visibility: hidden;
-    }
-    .navbarbaa{
-        visibility: hidden;
-    }
-    .leftside{
-        background-color: none;
-        width: 100%;
-    }
-    /*stop control y*/
-    .scrollable{
-        width: 100%;
-        background-color: none;
-    }
-    .header{
-        width: 800px;
-        padding-top: 20px;
-        height: 80px;
-        position: relative;
-        left: 80px;
-    }
-    .header h1{
-        text-align: left;
-        justify-content: center;
-        font-size: 20px;
-        color: blue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .header p{
-        text-align: left;
-        justify-content: center;
-        font-size: 18px;
-        color: #2d2d2d;
-        font-family: serif;
-    }
-    
-    .scrollable{
-        width: 100%;
-        height: 350px;
-        background-color: none;
-        position: relative;
-        
-        background-color: none;
-        top: 70px;
-        margin: auto;
-        display: flex;
-    }
-    .pic{
+    .logo{
         width: 200px;
-        height: 200px;
-        border-radius: 20px;
-        user-select: none;
+        height: 90px;
     }
-    .scrollable ul h2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 17px;
-        width: 120px;
-        height: 40px;
-        background-color: none;
-    }
-    .scrollable ul li{
-        background-color: wheat;
-        width: 200px;
-        height: 300px;
-        border-radius: 20px;
-        padding-left: none;
-        position: relative;
-        
-    }
-    button {
-        width: 90px;
-        height: 31px;
-        text-align: center;
-        font-size: 12px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-        font-weight: bold !important;
-        background: linear-gradient(#800080);
-        background-color: #800080;
-        box-shadow: inset 0 1px 1px #a4e388;
-        border-color: #800080;
-        border: 1px solid;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        user-select: none;
-        text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    }
-   
-    .sidebar ul{
-        width: 300px;
-        height: 555px;
-        background-color: wheat;
-        position: fixed;
-        left: 0PX;
-        top: 80px;
-        border-radius: 15px;
-    }
-    .sidebar ul li{
-        list-style-type: none;
-        list-style: none;
-        width: 120px;
-    
-        background-color: none;
-    }
-    .sidebar a{
-        font-size: 12px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: blue;
+    nav ul li a{
+        padding: 7px;
         text-decoration: none;
-        display: block;
-      line-height: 34px;
-      text-align: left;
-      justify-content: center;
-      position: relative;
-      left: -25px;
-letter-spacing: 0.2EM;
-      width: 250px;
-  
-      background-color: none;
+        color: blue;
+        letter-spacing: 0.2em;
+        font-size: 15px;
     }
-    .sidebar a:hover{
-        border: 2px solid brown;
-        background-color: white;
-        position: relative;
-        left: -0px;
-        font-size: 12px;
-        width: 120px;
-        
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
     }
-    .nav-toggler{
-        right: 20PX;
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
     }
-    .shops{
-        left: 0px;
-        right: 0px;
-        height: 500px;
-        background-color: rgb(94, 79, 43);
-        position: fixed;
-        top: 100px;
-        
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
     }
-    .shops ul{
-        width: 1100px;
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
     }
-    .contacts{
-        width: 600px;
-        position: relative;
-        top: 60px;
-        background-color: #a4e388;
+    .third ul li{
+        width: 240px;
+        height: 220px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 240px;
+        height: 150px;
+    }
+    .third ul li p{
+        font-size: 15px;
+        color: white;
         text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .fifth ul li{
+        width: 240px;
+        height: 220px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 100px;
+        right: 100px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .bannerpic{
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+    }
+
+
+
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 500px;
+        position: relative;
+        top: -500px;
+        left: -250px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
         display: block;
     
     }
     .textarea,
-    .email{
-        width: 400px;
-        border: 5px solid grey;
-        height: 40px;
-        display: block;
-    }
-    .label{
-        display: block;
-        width: 500px;
-        background-color: none;
-        height: fit-content;
-        line-height: 15px;
-        text-align: center;
-    }
-    .forma{
-        width: 200px;
-        text-align: center;
-    }
-    .label h1{
-        font-size: 20px;
-        color: brown;
-        text-align: center;
-        letter-spacing:  0.2em;
-        word-spacing: 0.2em;
-    }
-    
-    .pic{
-        width: 500px;
-        height: 270px;
-        border-radius: 20px;
-        user-select: none;
-    }
-    
-    button {
-        width: 180px;
-        height: 31px;
-        text-align: center;
-        font-size: 15px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-        font-weight: bold !important;
-        background: linear-gradient(#800080);
-        background-color: #800080;
-        box-shadow: inset 0 1px 1px #a4e388;
-        border-color: #800080;
-        border: 1px solid;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        user-select: none;
-        text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    }
-    
+.email{
+    width: 400px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 15px;
+}
+.pic{
+    width: 450px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
 }
 
 
 
 
 
-@media screen and (max-width: 1024px) {
-    *{
-        width: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .logo{
+        width: 200px;
+        height: 90px;
     }
-    body{
+    nav ul li a{
+        padding: 7px;
+        text-decoration: none;
+        color: blue;
+        letter-spacing: 0.2em;
+        font-size: 15px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 240px;
+        height: 220px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 240px;
+        height: 150px;
+    }
+    .third ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .fifth ul li{
+        width: 240px;
+        height: 220px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 50px;
+        right: 50px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+        
+        text-align: center;
+    }
+    .bannerpic{
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .logo{
+        width: 200px;
+        height: 90px;
+    }
+    nav ul li a{
+        padding: 7px;
+        text-decoration: none;
+        color: blue;
+        letter-spacing: 0.2em;
+        font-size: 15px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 200px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 200px;
+        height: 130px;
+    }
+    .third ul li p{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .fifth ul li{
+        width: 200px;
+        height: 180px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+        
+        text-align: center;
+    }
+    .bannerpic{
+        width: 800px;
+        height: 400px;
+        text-align: center;
+    }
+
+
+    .contacts .backdp{
         width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 500px;
+        position: relative;
+        top: -500px;
+        left: -200px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 400px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 15px;
+}
+.pic{
+    width: 450px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 220px;
+        height: 100px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
     .navbar{
-        width: 100%;
+     
+        width: auto;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    .navbarbaa{
+        display: none;
+        width: auto;
+        transition: all .5s ease;
+    }
+    .navbar ul li{
+        width: auto;
+    }
+    .navbar ul{
+        width: auto;
+    }
+    nav {
+        display: block;
     }
     .nav-toggler{
-        right: 5px;
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
     }
-    .leftside{
-        width: 100%;
-        background-color: none;
+    nav ul li{
+        border-bottom: 1px solid blue;
+        width: auto;
+    }
+    nav ul li a{
+        width: auto;
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: auto;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 200px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 200px;
+        height: 130px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+    }
+    .third ul li p{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+    }
+    .fifth ul li{
+        width: 200px;
+        height: 180px;
         
+        background-color: #2d2d2d;
     }
-    .nav-togglerb,
-    .nav-togglerb span{
+    .fifth ul li p{
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+    }
+    .ninth{
+        width: auto;
+        background-color: #800066;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        bottom: 0px;
+        left: 0px;
+     
+        overflow-y: auto;
+        right: 0px;
+    }
+    .closelist{
         visibility: hidden;
     }
-    .scrollable{
-      left: -10px;
+    .ninth ul{
+        display: block;
+        list-style: none;
     }
-    .scrollable ul li{
-        width: 180px;
-    }
-    .pic{
-        width: 180px;
-    }
-    .scrollable ul h1{
-        font-size: 25px;
-    }
-    .header{
-        width: 600px;
-        left: -0px;
-    }
-    .header p{
-        width: 100%;
-        text-align: left;
-    }
-    .sidebar{
-        border-radius: 5px;
-    }
-    .sidebar ul{
-        width: 300px;
-        top: 85px;
-
-    }
-    .sidebar a{
-        letter-spacing: 0.2em;
-        width: 300px;
-    }
-    .nav-toggler{
-        right: 20px;
-    }
-    .shops{
-        left: 0px;
-        right: 0px;
+    .vidlist li{
+        width: 360px;
         height: 500px;
-        width: fit-content;
-        background-color: rgb(94, 79, 43);
+    }
+    .vids{
+        width: 360px;
+        height: 500px;
+    }
+    .ads{
+        width: auto;
         position: fixed;
-        top: 100px;
-        
+        left: 20px;
+        right: 20px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+      
+        text-align: center;
     }
-    .shops ul{
-        width: 1000px;
+    buttonx{
+        width: 820px;
     }
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 500px;
+        position: relative;
+        top: -425px;
+        left: -200px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 400px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 5px;
+}
+.label h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 450px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
+
+@media screen and (max-width: 912px) {
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+      
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+    }
+    .desktopview{
+        position: fixed;
+        left: 10px;
+        right: 200px;
+    }
+    .buttonclose
+    .buttonopen {
+
+        width: fit-content;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bannerpic{
+        width: 700px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 780px;
+    }
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 500px;
+        position: relative;
+        top: -425px;
+        left: -150px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 400px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 5px;
+}
+.label h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 450px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 220px;
+        height: 100px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navbar{
+     
+        width: 100%;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+    nav ul li{
+        border-bottom: 2px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: 100%;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 180px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 180px;
+        height: 130px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+    }
+    .third ul li p{
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 180px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+    }
+    .fifth ul li{
+        width: 180px;
+        height: 180px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 180px;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+      
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+    }
+    .desktopview{
+        width: 880px;
+        
+    }
+    buttonx{
+        width: 755px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 220px;
+        height: 100px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navbar{
+     
+        width: 100%;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+    nav ul li{
+        border-bottom: 2px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: 100%;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 170px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 170px;
+        height: 130px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+    }
+    .third ul li p{
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 170px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+    }
+    .fifth ul li{
+        width: 170px;
+        height: 180px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 170px;
+    }
+
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+    }
+    .desktopview{
+        width: 700px;
+        left: 55px;
+    }
+    .buttonclose
+    .buttonopen {
+
+        width: fit-content;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bannerpic{
+        width: 600px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 680px;
+    }
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 500px;
+        position: relative;
+        top: -425px;
+        left: -100px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 400px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 5px;
+}
+.label h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 450px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 760px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 350px;
+        height: 100px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navbar{
+     
+        width: 100%;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+    nav ul li{
+        border-bottom: 1px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: 100%;
+        font-size: 18px;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 600px;
+        height: 300px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 600px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 600px;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+    }
+    .desktopview{
+        width: 700px;
+        left: 30px;
+        height: 500px;
+        
+    }
+    .buttonclose,
+    .buttonopen {
+
+        width: fit-content;
+      
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bannerpic{
+        width: 700px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 650px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 
 
 
 @media screen and (max-width: 720px) {
-    *{
-        width: 100%;
-    }
-    body{
-        width: 100%;
-    }
-    .navbar{
-        width: 100%;
-        height: 55px;
-    }
-    .nav-toggler{
-        display: block;
-        position: fixed;
-        right: 5px;
-        top: -px;
-        visibility: visible;
-    }
-    .nav-togglerb{
-        display: block;
-    }
-    .navbar h1{
-        position: relative;
-        left: -40px;
-        
-    }
-    .navbar h1 a{
-        font-size: 20px;
-    }
-    .navbar ul{
-        width: 280px;
-        background-color: #800080;
-        display: block;
-        line-height: 50px;
-        position: fixed;
-        right: -180px;
-        top: 50px;
-        justify-content: center;
-        justify-items: center;
-        
-    }
-    .navbaraaa{
-        visibility: visible;
-    }
-    .navbar a{
-        text-align: right;
-    }
-    .sidebar {
-        visibility: hidden;
-    }
-    .sidebarb{
-       visibility: visible;
-    }
-    .navbarbaa{
-        visibility: hidden;
-    }
-    .leftside{
-        background-color: none;
-        width: 100%;
-        height: fit-content;
-        top: 150px
-        ;
-    }
-    /*stop control y*/
-    .scrollable{
-        width: 100%;
-        background-color: none;
-        height: fit-content;
-        top: 50px;
-    }
-    .header{
-        width: 500px;
-        top: -100px;
-        height: 80px;
-        position: relative;
-        text-align: left;
-        justify-content: left;
-        justify-items: left;
-    }
-    .header h1{
-        text-align: left;
-        justify-content: center;
-        font-size: 15px;
-        color: blue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .header p{
-        text-align: left;
-        justify-content: center;
-        font-size: 15px;
-        color: #2d2d2d;
-        font-family: serif;
-    }
     
-    .scrollable{
-        width: 100%;
-        height: 300px;
-        background-color: none;
-        position: relative;
-        right: 0px;
-        background-color: none;
-        top: 0px;
-        
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
         display: flex;
+        height: fit-content;
     }
-    .pic{
-        width: 180px;
-        height: 150px;
-        border-radius: 20px;
-        user-select: none;
-    }
-    .scrollable ul h2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 17px;
-        width: 120px;
-        height: 40px;
-        background-color: none;
-    }
-    .scrollable ul li{
-        background-color: wheat;
-        width: 180px;
-        height: 250px;
-        border-radius: 20px;
-        padding-left: none;
-        position: relative;
-        
-    }
- 
-    .scrollable ul{
-        width: 720px;
-        background-color: none;
-        scroll-behavior: smooth;
-    }
-    button {
-        width: 90px;
-        height: 31px;
-        text-align: center;
-        font-size: 12px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-        font-weight: bold !important;
-        background: linear-gradient(#800080);
-        background-color: #800080;
-        box-shadow: inset 0 1px 1px #a4e388;
-        border-color: #800080;
-        border: 1px solid;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        user-select: none;
-        text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    }
-  
-    .sidebar ul{
-        width: 250px;
-        height: 555px;
-        background-color: wheat;
-        position: fixed;
-        left: 0PX;
-        top: 80px;
-        visibility: hidden;
-    }
-    .sidebarb{
-        visibility: hidden;
-    }
-    .sidebar ul li{
-        list-style-type: none;
-        list-style: none;
-        width: 120px;
-    
-        background-color: none;
-    }
-    .sidebar a{
-        font-size: 12px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: blue;
-        text-decoration: none;
-        display: block;
-      line-height: 33.5px;
-      text-align: left;
-      justify-content: center;
-      position: relative;
-      left: -25px;
-        letter-spacing: 0.2em;
-      width: 250px;
-  
-      background-color: none;
-    }
-    .sidebar a:hover{
-        border: 2px solid brown;
-        background-color: white;
-        position: relative;
-        left: -0px;
-        font-size: 12px;
-        width: 120px;
-        
-    }
-    .nav-togglerb,
-    .nav-togglerb span{
-        visibility: hidden;
-    }
-    .nav-toggler{
-        right: 20px;
-    }
-    .footer h1{
-        font-size: 16px;
-    }
-    .shops{
-        width: 720px;
-        height: 500px;
-        background-color: rgb(94, 79, 43);
-        position: fixed;
-        top: 100px;
-        
-    }
-    
-    .showshops{
-        visibility: hidden;
-    }
-    
-    .shops ul{
-        display: flex;
-        list-style-type: none;
-        padding-top: 6px;
-        width: 720px;
-        height: 50px;
-        background-color: rgb(94, 79, 43);
-       
-    }
-    .shops ul li a{
-        text-decoration: none;
-        font-size: 14px;
-        background-color: rgb(94, 79, 43);
-        border: 3px solid white;
-        padding: 10px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-    }
-    .shops ul li a:hover{
-        color: red;
-        border: 5px solid greenyellow;
-    }
-    
-}
-
-
-
-
-
-
-
-
-@media screen and (max-width: 480px) {
-    *{
-        width: 100%;
-    }
-    body{
-        width: 100%;
-    }
-    .navbar{
-        width: 100%;
-        height: 55px;
-    }
-    .nav-toggler{
-        display: block;
-        position: fixed;
-        right: 5px;
-        top: -px;
-        visibility: visible;
-    }
-    .nav-togglerb{
-        display: block;
-    }
-    .navbar h1{
-        position: relative;
-        left: -40px;
-        
-    }
-    .navbar h1 a{
-        font-size: 20px;
-    }
-    .navbar ul{
-        width: 280px;
-        background-color: #800080;
-        display: block;
-        line-height: 50px;
-        position: fixed;
-        right: -180px;
-        top: 50px;
-        justify-content: center;
-        justify-items: center;
-        
-    }
-    .navbaraaa{
-        visibility: visible;
-    }
-    .navbar a{
-        text-align: right;
-    }
-    .sidebar {
-        visibility: hidden;
-    }
-    .sidebarb{
-       visibility: visible;
-    }
-    .navbarbaa{
-        visibility: hidden;
-    }
-    .leftside{
-        background-color: none;
-        width: 100%;
-    }
-    /*stop control y*/
-    .scrollable{
-        width: 100%;
-        background-color: none;
-    }
-    .header{
+    .logo{
         width: 350px;
-        padding-top: 20px;
-        height: auto;
-        text-align: left;
-        justify-content: center;
-        justify-items: center;
+        height: 100px;
         position: absolute;
-        left: 80px;
+        left: 20px;
+        top: 10px;
     }
-    .header h1{
-        text-align: left;
-        justify-content: left;
-        font-size: 15px;
-        color: blue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .headerpic{
-        width: 110px;
-        height: 70px;
-    }
-    .header p{
-        text-align: left;
-        justify-content: center;
-        font-size: 14px;
-        color: #2d2d2d;
-        font-family: serif;
-    }
-    
-    .scrollable{
+    .navbar{
+     
         width: 100%;
-        height: 250px;
-        background-color: none;
-        position: relative;
-        right: 0px;
-        background-color: none;
-        top: 80px;
-        left: 50px;
-        display: flex;
-    }
-    .scrollable{
-        position: relative;
-        left: 0px;
-        right: 0px;
-    }
-    .scrollable ul{
-        position: relative;
-        left: 30px;
-    }
-    .pic{
-        width: 150px;
-        height: 160px;
-        border-radius: 20px;
-        user-select: none;
-    }
-    .scrollable ul h2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 17px;
-        width: 120px;
-        height: 40px;
-        background-color: none;
-    }
-    .scrollable ul li{
-        background-color: wheat;
-        width: 150px;
-        height: 250px;
-        border-radius: 20px;
-        padding-left: none;
-        position: relative;
-        left: -60px;
-    }
-    button {
-        width: 90px;
-        height: 28px;
-        text-align: center;
-        font-size: 12px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-        font-weight: bold !important;
-        background: linear-gradient(#800080);
-        background-color: #800080;
-        box-shadow: inset 0 1px 1px #a4e388;
-        border-color: #800080;
-        border: 1px solid;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        user-select: none;
-        text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    }
-   
-
-    .sidebar ul{
-        width: 350px;
-        height: 455px;
-        background-color: wheat;
-        position: fixed;
-        left: 0PX;
-        top: 80px;
-    }
-    .sidebar ul li{
-        list-style-type: none;
-        list-style: none;
-        width: 120px;
-    
-        background-color: none;
-    }
-    .sidebar a{
-        font-size: 12px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: blue;
-        text-decoration: none;
-        display: block;
-      line-height: 28px;
-      text-align: left;
-      justify-content: center;
-      position: relative;
-      left: -25px;
-        letter-spacing: 0.2em;
-      width: 350px;
-  
-      background-color: none;
-    }
-    .sidebar a:hover{
-        border: 2px solid brown;
         background-color: white;
-        position: relative;
-        left: -0px;
-        font-size: 12px;
-        width: 120px;
-        
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
     }
     .nav-toggler{
-        right: 20px;
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
     }
-    .footer h1{
-        font-size: 12px;
+    nav ul li{
+        border-bottom: 1px solid red;
     }
-    .shops{
-        width: 480px;
-        height: 380px;
-        background-color: rgb(94, 79, 43);
-        position: fixed;
-        top: 70px;
-        left: -25px;
-        
-    }
-    
-    .showshops{
-        visibility: hidden;
-    }
-    
-    .shops ul{
-        display: flex;
-        list-style-type: none;
-        padding-top: 6px;
-        width: 480px;
-        height: 50px;
-        background-color: rgb(94, 79, 43);
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: auto;
+        letter-spacing: 0.2em;
        
     }
-    .shops ul li a{
-        text-decoration: none;
-        font-size: 12px;
-        background-color: rgb(94, 79, 43);
-        border: 1px solid white;
-        padding: 5px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul li h1{
+        font-size: 30px;
         color: white;
+        width: 400px;
+        font-family:sans-serif;
     }
-    .shops ul li a:hover{
-        color: red;
-        border: 5px solid greenyellow;
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        width: 500px;
+        font-family:sans-serif;
     }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 500px;
+        height: 400px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 500px;
+        height: 300px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 500px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 500px;
+        height: 400px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 500px;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+    .bannerpic{
+        width: 650px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 600px;
+    }
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 500px;
+        position: relative;
+        top: -425px;
+        left: -00px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 400px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 5px;
+}
+.label h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 450px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
 
 
 
-@media screen and (max-width: 412px) {
-    .header{
-        left: -10px;
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 350px;
+        height: 100px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navbar{
+     
+        width: 100%;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    .navbar{
+        width: auto;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+    
+    nav ul li{
+        border-bottom: 1px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: 100%;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul{
+        width: 600px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        width: 500px;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 16px;
+        color: white;
+        width: 500px;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        width: auto;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+        width: auto;
+    }
+    .second ul li{
+        margin: 0;
+        width: auto;
+    }
+    .second ul li p{
+        width: auto;
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 400px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 400px;
+        height: 200px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
         width: 400px;
     }
-    .leftside{
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 400px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 400px;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        top: 30px;
+        background-color: none;
+        
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
         height: 500px;
+        width: 100%;
     }
-    .scrollable{
-        position: relative;
-        left: 0px;
-        right: 0px;
-    }
-    .scrollable ul{
-        position: relative;
+    .desktopview{
+        width: 700px;
         left: 30px;
+        height: 500px;
+        display: none;
+        
     }
+    .mobileview{
+       
+        position: fixed;
+        height: 500px;
+        display: block;
+    }
+    .buttonclose,
+    .buttonopen {
+
+        width: fit-content;
+      
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bannerpic{
+        width: 520px;
+        height: 400px;
+        text-align: center;
+    }
+    buttonx{
+        width: 490px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 300px;
+        height: 90px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navbar{
+     
+        width: 100%;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 40px;
+    }
+    nav ul li{
+        border-bottom: 2px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: 100%;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul{
+        width: 350px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        width: 350px;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 15px;
+        color: white;
+        width: 350px;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 350px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 350px;
+        height: 200px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 350px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        width: 350px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 350px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 350px;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        top: 30px;
+        background-color: none;
+      
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
+    }
+    .desktopview{
+        width: 700px;
+        left: 30px;
+        height: 500px;
+        display: none;
+        
+    }
+    .mobileview{
+       
+        position: fixed;
+        height: 500px;
+        display: block;
+        width: 400px;
+    }
+    .buttonclose,
+    .buttonopen {
+
+        width: fit-content;
+      font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .bannerpic{
+        width: 400px;
+        height: 300px;
+        text-align: center;
+    }
+    buttonx{
+        width: 410px;
+    }
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 400px;
+        position: relative;
+        top: -425px;
+        left: -00px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 350px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
+}
+.label{
+    display: block;
+    width: 400px;
+    background-color: none;
+    height: fit-content;
+    line-height: 5px;
+}
+.label h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 400px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px) {
+    
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 300px;
+        height: 90px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .navbar{
+     
+        width: 100%;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    .navbar ul li{
+        width: auto;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: all .5s ease;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+    nav ul li{
+        border-bottom: 0.5px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        width: auto;
+        letter-spacing: 0.2em;
+       
+    }
+    
+    .first{
+        position: relative;
+        top: 70px;
+    }
+    .first ul{
+        width: 320px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        width: 320px;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 15px;
+        color: white;
+        width: 330px;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 320px;
+        height: fit-content;
+        position: relative;
+        border: 1px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 320px;
+        height: 180px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 320px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        width: 320px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 320px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 320px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 320px;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+        height: 500px;
+        width: 400px;
+    }
+    .desktopview{
+        width: 700px;
+        left: 30px;
+        height: 500px;
+        display: none;
+        
+    }
+    .mobileview{
+       
+        position: fixed;
+        height: 500px;
+        display: block;
+        width: 350px;
+        position: fixed;
+        right: 20px;
+        left: 20px;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .buttonclose,
+    .buttonopen {
+
+        width: fit-content;
+      font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bannerpic{
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+    buttonx{
+        width: 330px;
+    }
+
+    .contacts .backdp{
+        width: 100%;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 350px;
+        position: relative;
+        top: -425px;
+        left: -00px;
+        background-image: linear-gradient(120deg, peru 30%, blue 50%, peru 70%);
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 0, 200, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 300px;
+    border: 5px solid grey;
+    height: 40px;
+    display: inline-block;
+}
+.label{
+    display: block;
+    width: 300px;
+    background-color: none;
+    height: fit-content;
+    line-height: 5px;
+}
+.label h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 360px) {
     *{
-        width: 100%;
+        margin: 0px;
     }
-    body{
-        width: 100%;
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
     }
-    .navbar{
-        width: 100%;
-        height: 55px;
+    .logo{
+        width: 200px;
+        height: 90px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
     }
-    .nav-toggler{
-        display: block;
-        position: fixed;
-        right: -50px;
-        top: px;
-        width: 32px;
-        height: 25px;
-        
-        visibility: visible;
-    }
- 
-    .nav-toggler span{
-        width: 20px;
-    }
-    .nav-togglerb{
-        width: 40px;
-        display: block;
-    }
-
-    .nav-togglerb span{
-        width: 10px;
-    }
-
-    .navbar h1{
-        position: relative;
-        left: -90px;
-        
-    }
-    .sidebar ul{
-        width: 350px;
-        height: 455px;
-        background-color: wheat;
-        position: fixed;
-        left: 0PX;
-        top: 80px;
-    }
-    .sidebar ul li{
-        list-style-type: none;
-        list-style: none;
-        width: 120px;
-    
-        background-color: none;
-    }
-    .sidebar a{
-        font-size: 12px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: blue;
-        text-decoration: none;
-        display: block;
-      line-height: 28px;
-      text-align: center;
-      justify-content: center;
-      position: relative;
-      left: -70px;
-    background-color: none;
-      width: 250px;
-  
-      background-color: none;
-    }
-    .sidebar a:hover{
-        border: 2px solid brown;
+    .navbar{ 
+        width: auto;
         background-color: white;
-        position: relative;
-        left: -0px;
-        font-size: 12px;
-        width: 120px;
-        
-    }
-    .navbar h1 a{
-        font-size: 20px;
-    }
-    .picaaaa{
-        width: 480px;
-        height: 420px;
-       position: relative;
-       left: 150px;
-       top: 40px;
-    }
-    .navbar ul{
-        width: 280px;
-        background-color: #800080;
         display: block;
-        line-height: 50px;
-        position: fixed;
-        right: -180px;
-        top: 50px;
-        justify-content: center;
-        justify-items: center;
-        
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
     }
-    .navbaraaa{
-        visibility: visible;
-    }
-    .navbar a{
-        text-align: right;
-    }
-    .sidebar {
-        visibility: hidden;
-    }
-    .sidebarb{
-       visibility: visible;
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
     }
     .navbarbaa{
-        visibility: hidden;
+        display: none;
+        transition: .5s;
     }
-    .leftside{
-        background-color: none;
-        width: 100%;
-        left: -60px;
-        top: -25px;
-    }
-    /*stop control y*/
-    .scrollable{
-        width: 360px;
-        background-color: none;
-    }
-    .header{
-        width: 320px;
-        padding-top: 180px;
-        height: 80px;
-        position: absolute;
-        left: 70px;
-        visibility: visible;
-    }
-    .headerpic{
-        visibility: visible;
-        width: 110px;
-        height: 60px;
-    }
-    .header h1{
-        text-align: left;
-        justify-content: center;
-        font-size: 12px;
-        user-select: none;
-        color: blue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .header p{
-        text-align: left;
-        justify-content: center;
-        font-size: 13px;
-        color: #2d2d2d;
-        user-select: none;
-        font-family: serif;
-    }
-    
-    .scrollable{
-        width: 360px;
-        height: 200px;
-        background-color: none;
-        position: relative;
-        right: 0px;
-        background-color: none;
-        top: 230px;
-        left: 70px;
-        display: flex;
-    }
-    .pic{
-        width: 120px;
-        height: 100px;
-        border-radius: 0px;
-        user-select: none;
-    }
-    .scrollable ul h2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 13px;
-        width: 120px;
-        height: 40px;
-        user-select: none;
-        background-color: none;
-    }
-    .scrollable ul li{
-        background-color: wheat;
-        width: 120px;
-        height: 180px;
-        border-radius: 0px;
-        padding-left: none;
-        position: relative;
-        left: -30px;
-    }
-  
-    button {
-        width: 90px;
-        height: 31px;
-        text-align: center;
-        font-size: 12px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-        font-weight: bold !important;
-        background: linear-gradient(#800080);
-        background-color: #800080;
-        box-shadow: inset 0 1px 1px #a4e388;
-        border-color: #800080;
-        border: 1px solid;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        top: -20px;
-        user-select: none;
-        text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    }
-
-    .sidebar{
-        width: auto;
-    }
-    .sidebar a{
-        letter-spacing: 0.2em;
+    nav {
+        display: block;
     }
     .nav-toggler{
+        display: block;
+        position: absolute;
         right: 20px;
+        top: 40px;
     }
-    .footer{
-        height: 20PX;
-        line-height: 20PX;
+    nav ul li{
+        border-bottom: 1px solid blue;
     }
-    .footer h1{
-        font-size: 9.5px;
-    }
-    .shops{
-        width: 360px;
-        height: 380px;
-        background-color: rgb(94, 79, 43);
-        position: fixed;
-        top: 70px;
-        left: -30px;
-        
-    }
-    
-    .showshops{
-        visibility: hidden;
-    }
-    
-    .shops ul{
-        display: flex;
-        list-style-type: none;
-        padding-top: 6px;
-        width: 350px;
-        height: 50px;
-        background-color: rgb(94, 79, 43);
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        letter-spacing: 0.2em;
        
     }
-    .shops ul li a{
-        text-decoration: none;
-        font-size: 10px;
-        background-color: rgb(94, 79, 43);
-        border: 1px solid white;
-        padding: 2px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
+    
+    .first{
+        position: relative;
+        top: 70px;
+        justify-content: baseline;
+        text-align: center;
     }
-    .shops ul li a:hover{
-        color: red;
-        border: 5px solid greenyellow;
+    .bacg{
+        width: 100%;
+    }
+    .first ul{
+        width: auto;
+        text-align: center;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        width: auto;
+        display: block;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 15px;
+        color: white;
+        width: auto;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+        width: auto;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        width: auto;
+        text-align: left;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: auto;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 280px;
+        height: fit-content;
+        position: relative;
+        border: 1px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 280px;
+        height: 180px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 280px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        width: 280px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 280px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 280px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 280px;
+    }
+    .sixth{
+        width: auto;
+    }
+    .sixth ul li h1{
+        font-size: 20px;
+        width: auto;
+        margin: auto;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+    .footerpic{
+        width: 350px;
+        height: 150px;
+        display: block;
+    }
+
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+        height: 500px;
+        width: 400px;
+    }
+    .desktopview{
+        width: 700px;
+        left: 30px;
+        height: 500px;
+        display: none;
+        
+    }
+    .mobileview{
+       
+        position: fixed;
+        height: 400px;
+        display: block;
+        width: 340px;
+        position: fixed;
+        right: 10px;
+        left: 10px;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .buttonclose,
+    .buttonopen {
+
+        width: fit-content;
+      font-size: 15px;
+      padding: 0px;
+        padding-left: 20px;
+        padding-right: 40px;
+        line-height: 50px;
+        height: 50px;
+        border-radius: none;
+        color: white;
+        border: none;
+        background-color: #2d2d2d;
+    }
+    .tags{
+        height: 50px;
+    }
+    .bannerpic{
+        width: 320px;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+    }
+    buttonx{
+        width: 290px;
+    }
+    .contacts .backdp{
+        width: 360px;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 300px;
+        position: relative;
+        top: -425px;
+        left: -10px;
+        background-image: none;
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+    
+    }
+    .textarea,
+.email{
+    width: 300px;
+    border: 5px solid grey;
+    height: 40px;
+    display: inline-block;
+}
+.label{
+    display: block;
+    width: 300px;
+    background-color: none;
+    height: fit-content;
+    line-height: 8px;
+}
+.label h1{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+    *{
+        margin: 0px;
+    }
+    nav{
+        width: auto;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 160px;
+        height: 70px;
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    }
+    .navbar{ 
+        width: auto;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+    }
+    nav ul li{
+        border-bottom: 2px solid blue;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
+        line-height: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        letter-spacing: 0.2em;
+       
     }
     
+    .first{
+        position: relative;
+        top: 70px;
+        justify-content: baseline;
+        text-align: center;
+    }
+    .bacg{
+        width: 100%;
+    }
+    .first ul{
+        width: auto;
+        text-align: center;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        width: auto;
+        display: block;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 15px;
+        color: white;
+        width: auto;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+        width: auto;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        width: auto;
+        text-align: left;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: auto;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 220px;
+        height: fit-content;
+        position: relative;
+        border: 1px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 220px;
+        height: 180px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 20px;
+        width: 220px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 18px;
+        color: #2d2d2d;
+        width: 220px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 220px;
+        height: fit-content;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .fifth ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .sixth{
+        width: auto;
+    }
+    .sixth ul li h1{
+        font-size: 20px;
+        width: auto;
+        margin: auto;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 20px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 0.2em;
+    }
+    .seventh ul li a{
+        font-size: 17px;
+        color: rgb(36, 192, 184);
+        text-decoration: none;
+    }
+    .footerpic{
+        width: 280px;
+        height: 150px;
+        display: block;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+        height: 500px;
+        width: 400px;
+    }
+    .desktopview{
+        width: 700px;
+        left: 30px;
+        height: 500px;
+        display: none;
+        
+    }
+    .mobileview{
+       
+        position: fixed;
+        height: 500px;
+        display: block;
+        width: 300px;
+        position: fixed;
+        right: 10px;
+        left: 0px;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .buttonclose,
+    .buttonopen {
+
+        width: fit-content;
+      font-size: 15px;
+      padding: 0px;
+        padding-left: 20px;
+        padding-right: 40px;
+        line-height: 50px;
+        height: 50px;
+        border-radius: none;
+        color: white;
+        border: none;
+        background-color: #2d2d2d;
+    }
+    .tags{
+        height: 50px;
+    }
+    .bannerpic{
+        width: 260px;
+        height: 500px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+    }
+    buttonx{
+        width: 240px;
+    }
+
+
+    .contacts .backdp{
+        width: 300px;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 300px;
+        position: relative;
+        top: -425px;
+        left: -40px;
+        background-image: none;
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+        text-align: left;
+    
+    }
+    .textarea,
+.email{
+    width: 285px;
+    border: 5px solid grey;
+    height: 40px;
+    display: block;
 }
+.label{
+    display: block;
+    width: 280px;
+    background-color: none;
+    height: fit-content;
+    line-height: 8px;
+}
+.label h1{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
+}
+.pic{
+    width: 280px;
+    height: 190px;
+    border-radius: 20px;
+    user-select: none;
+}
+button{
+    text-align: center;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
 
@@ -1449,646 +4012,383 @@ letter-spacing: 0.2EM;
 
 @media screen and (max-width: 240px) {
     *{
-        width: 240px;
+        margin: 0px;
     }
-    body{
-        width: 240px;
-    }
-    .navbar{
+    nav{
         width: auto;
-        height: 30px;
+        min-height: 50px;
+        background-color:  white;
+        display: flex;
+        height: fit-content;
+    }
+    .logo{
+        width: 120px;
+        height: 50px;
+        position: absolute;
+        left: 20px;
+        top: 45px;
+    }
+    .navbar{ 
+        width: auto;
+        background-color: white;
+        display: block;
+        list-style: none;
+       padding-top: 120px;
+        height: 300px;
+    }
+    nav ul li a:hover{
+        border-top: none;
+        color: rgba(0, 0, 255, 0.452);
+        border-bottom: none;
+        user-select: none;
+    }
+    .navbarbaa{
+        display: none;
+        transition: .5s;
+    }
+    nav {
+        display: block;
     }
     .nav-toggler{
         display: block;
-        position: relative;
-        right: 5px;
-        top: -37px;
-        visibility: visible;
-        width: 20px;
-     
-        height: 20px;
+        position: absolute;
+        right: 20px;
+        top: 40px;
     }
-    .nav-togglerb{
-        display: block;
+    nav ul li{
+        border-bottom: 0.5px solid blue;
     }
-    .navbar h1{
-        position: relative;
-        right: 5px;
-        font-size: 15px;
-        top: -8px;
-        
-    }
-    .navbar h1 a{
-        font-size: 12px;
-    }
-    .picaaaa{
-        width: 480px;
-        height: 420px;
-       position: relative;
-       left: 150px;
-       top: 40px;
-    }
-    .navbar ul{
-        width: 150px;
-        background-color: #800080;
-        display: block;
+    nav ul li a{
+        text-decoration: none;
+        color: blue;
         line-height: 50px;
-        position: fixed;
-        right: -100px;
-        top: 27px;
-        justify-content: center;
-        justify-items: center;
-        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        font-size: 15px;
+        letter-spacing: 0.2em;
+       
     }
-    .navbaraaa{
-        visibility: visible;
+    
+    .first{
+        position: relative;
+        top: 70px;
+        justify-content: baseline;
+        text-align: center;
     }
-    .navbar a{
-        text-align: right;
+    .bacg{
+        width: 100%;
     }
-    .sidebar {
-        visibility: hidden;
+    .first ul{
+        width: auto;
+        text-align: center;
     }
-    .sidebarb{
-       visibility: visible;
+    .first ul li h1{
+        font-size: 22px;
+        color: white;
+        width: auto;
+        display: block;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 13px;
+        color: white;
+        width: auto;
+        text-align: left;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 20px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second{
+        position: relative;
+        top: 50px;
+        width: auto;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        width: auto;
+        text-align: left;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: auto;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 160px;
+        height: fit-content;
+        position: relative;
+        border: 1px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 160px;
+        height: 120px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 160px;
     }
 
-    .navbarbaa{
-        visibility: hidden;
-    }
-    .leftside{
-        background-color: none;
-        width: 200px;
-        left: 40PX;
-    }
-    /*stop control y*/
-    .scrollable{
-        width: 240px;
-        background-color: none;
-    }
-    .header{
-        width: 240px;
-        padding-top: 20px;
-        height: 80px;
+    .fourth{
         position: relative;
-        left: -40px;
-        top: -30px;
+        top: 10px;
     }
-    .header h1{
-        text-align: center;
-        justify-content: center;
-        font-size: 15px;
-        color: blue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .fourth ul li h1{
+        font-size: 18px;
+        width: 160px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
     }
-    .header p{
-        text-align: center;
-        justify-content: center;
+    .fourth ul li p{
         font-size: 15px;
         color: #2d2d2d;
-        font-family: serif;
+        width: 160px;
+        font-family: 'Times New Roman', Times, serif;
     }
-    
-    .scrollable{
-        width: 240px;
+
+
+    .fifth{
+        position: relative;
+        top: 40px;
+        display: block;
+    }
+    .fifth ul{
+        display: block;
+    }
+    .fifth ul li{
+        width: 160px;
         height: fit-content;
-        background-color: none;
         position: relative;
-        right: 0px;
-        background-color: none;
-        top: -10px;
-        left: -00px;
-        display: block;
+        border: 2px solid red;
+        background-color: peru;
     }
-  
-    .pic{
-        width: 200px;
-        height: 80px;
-        border-radius: 5px;
-        user-select: none;
-    }
-    .scrollable ul h2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 12px;
-        width: 150px;
-        height: 40px;
-        text-decoration: none;
-        background-color: none;
-    }
-    .scrollable ul li{
-        background-color: wheat;
-        width: 200px;
-        height: 150px;
-        border-radius: 10px;
-        top: 30px;
-        text-decoration: none;
-        position: relative;
-        left: -80px;
-    }
-    .sidebar{
-        border-radius: 2px;
-    }
-    button {
-        width: 80px;
-        height: 20px;
+    .fifth ul li p{
+        font-size: 15px;
+        color: white;
         text-align: center;
-        font-size: 12px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-        font-weight: bold !important;
-        background: linear-gradient(#800080);
-        background-color: #800080;
-        box-shadow: inset 0 1px 1px #a4e388;
-        border-color: #800080;
-        border: 1px solid;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        user-select: none;
-        top: -10px;
-        text-shadow: 0 1px 2px rgba(0,0,0,.5);
+        text-decoration: none;
+        width: 160px;
     }
-   
-    .scrollable a{
+    .sixth{
+        width: auto;
+    }
+    .sixth ul li h1{
+        font-size: 15px;
+        width: auto;
+        margin: auto;
+    }
+    .sixth ul li h3{
+        font-size: 16px;
+        color: #2d2d2d;
+        width: auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .sixth ul li h3 a{
+        width: 150px;
+        background-color: rgb(43, 159, 226);
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 5px;
+    }
+
+
+    .seventh{
+        width: auto;
+        display: block;
+        height: fit-content;
+        background-color: #2d2d2d;
+    }
+    .seventh ul{
+        list-style: none;
+        display: block;
+    }
+    .seventh ul h1{
+        padding-bottom: 14px;
+    }
+    .seventh ul h1 {
+        color: white;
+        font-size: 18px;
+        letter-spacing: 0.03em;
+    }
+    .seventh ul li a{
+        font-size: 15px;
+        color: rgb(36, 192, 184);
         text-decoration: none;
     }
-    .sidebar ul{
-        width: 80px;
-        border-radius: 3px;
-        top: 50px;
-        height: 330px;
-    }
-    .sidebar a{
-        font-size: 8px;
-        line-height: 20px;
-        letter-spacing: 0.2em;
-    }
-    .scrollable{
+    .footerpic{
+        width: 220px;
+        height: 150px;
         display: block;
     }
-    .nav-toggler span{
-        height: 2px;
-        width: 8px;
-        background-color: white;
+
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        text-align: center;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .slider {
+        left: 20px;
+        right: 20px;
+        position: fixed;
+        height: 500px;
+        width: 400px;
+    }
+    .desktopview{
+        width: 700px;
+        left: 30px;
+        height: 500px;
+        display: none;
+        
+    }
+    .mobileview{
+       
+        position: fixed;
+        height: 400px;
         display: block;
-        margin: auto;
+        width: 250px;
+        position: fixed;
+        right: 10px;
+        left: 0px;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .buttonclose,
+    .button,
+    .buttonopen {
+
+        width: fit-content;
+      font-size: 15px;
+      padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        line-height: 50px;
+        height: 50px;
+        border-radius: none;
+        color: white;
+        border: none;
+        background-color: #2d2d2d;
+    }
+    .tags{
+        height: 50px;
+        width: 200px;
+    }
+    .bannerpic{
+        width: 200px;
+        height: 500px;
+        text-align: center;
         position: relative;
+        left: -20px;
     }
-    .nav-togglerb{
-        width: 20px;
-        height: 20px;
-        top: 18px;
+    .fourth{
+        display: none;
     }
-
-    .nav-togglerb span{
-        height: 2px;
-        width: 8px;
-        background-color: white;
-        display: block;
-        margin: auto;
+    buttonx{
+        width: 180px;
+    }
+    .contacts .backdp{
+        width: 240px;
+      height: 500px;
+    }
+    .contacts ul{
+        width: 240px;
         position: relative;
+        top: -425px;
+        left: -40px;
+        background-image: none;
+        text-align: center;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        height: fit-content;
+        display: block;
+        text-align: left;
+    
     }
-      
-    .nav-toggler span::before,
-    .nav-toggler span::after{
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-    }
-    .nav-toggler.active span::before{
-        transform: rotate (45deg);
-    }
-    .nav-toggler.active span::after{
-        transform: rotate (45deg);
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-.flexbody{
-    width: 1350PX;
-    height: fit-content;
-    background-color: #a4e388;
-    display: flex;
-}
-.flexia{
-    width: 200px;
-
-}
-.sidebar{
-    position: fixed;
-      height: fit-content;
-    background-color: #a4e388;
+    .textarea,
+.email{
+    width: 225px;
+    border: 5px solid grey;
+    height: 40px;
     display: block;
 }
-.lista{
-    width: 700px;
-    height: 400px;
+.label{
+    display: block;
+    width: 225px;
     background-color: none;
-    margin-top: 20px;
-    display: block;
-    position: relative;
-    left: 200px;
-    background-color: #800080;
+    height: fit-content;
+    line-height: 8px;
 }
-.lista ul {
-    list-style-type: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
-}
-.lista li{
-    width: 250px;
-    height: 380px;
-    background-color: whitesmoke;
-    text-decoration: none;
-    border-radius: 15px;
-}
-.lista li:hover{
-    width: 260px;
-    height: 390px;
-    background-color: whitesmoke;
-    text-decoration: none;
-    border-radius: 15px;
-    border: 5px solid blue;
-}
-.lista ul a{
-    text-decoration: none;
+.label h1{
     font-size: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.lista ul a:hover{
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing:  0.2em;
+    word-spacing: 0.2em;
 }
 .pic{
     width: 250px;
-    height: 250px;
-    border-radius: 15px;
-}
-button {
-    width: 180px;
-    height: 35px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-    font-weight: bold !important;
-    background: linear-gradient(#800080);
-    background-color: #800080;
-    box-shadow: inset 0 1px 1px #a4e388;
-    border-color: #800080;
-    border: 1px solid;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    
-    text-shadow: 0 1px 2px rgba(0,0,0,.5);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.maincontainer{
-    width: 1350px;
-    height: 4100px;
-    background-color: whitesmoke;
-
-}
-.navbar{
-    width: 1350PX;
-    height: 70PX;
-    background-color: rgba(245, 245, 245, 0.815);
-    display: block;
-}
-.leftnav{
-    display: block;
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    color: blue;
-    padding-top: 5px;
-    font-size: 30px;
-    position: relative;
-   
-    background-color: #2d2d2d;
-   
-}
-.heading123{
-    position: relative;
-    left: 150px;
-}
-.rightnav{
-    display: flex;
-    float: right;
-    list-style: none;
-    width: 500px;
-    height: 30px;
-    position: relative;
-    top: 10px;
-    left: 200px;
-    background-color: blue;
-}
-.home{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-}
-.items{
-    width: 1350px;
-    padding-top: 50px;
-    position: relative;
-    top: 50px;
-    left: -25px;
-    margin: auto;
-    height: 1300px;
-    background-color: white;
+    height: 190px;
     border-radius: 20px;
+    user-select: none;
+}
+button{
+    text-align: center;
+    width: 240px;
 }
 
-.fstrow{
-    width: 1350px;
-    height: 1300px;
-    background-color: red;
 
-    position: relative;
-    top: -35px;
-}
-.header{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font: 20px;
-    color: white;  
-   
-}
-.firstlistrow{
-    width: 1260px;
-    height: 300px;
-    background-color: whitesmoke;
-    list-style: none;
-    display: flex;
-    padding-top: 20px;
- 
-    
-   
-}
-.items3{
-    width: 1350px;
 
-    position: relative;
-    top: 1px;
-   
-    height: 1300px;
-    background-color: white;
-    border-radius: 20px;
-}
-.fstrow3{
-    width: 1300px;
-    height: 1200px;
-    background-color: brown;
-    margin: auto;
-    position: relative;
-    top: -35px;
-}
-.header3{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font: 20px;
-    color: white;  
-   
-}
-.firstlistrow3{
-    width: 1260px;
-    height: 300px;
-    background-color: whitesmoke;
-    list-style: none;
-    display: flex;
-    padding-top: 20px;
-    border-color: #800080;
-    border: 20px solid blue;    
-    box-shadow: 1px 2px 10px 5px blue;
-    background-size: 100% 100%;
-   
-}
-.pic:hover{
-    border-top-right-radius: 45px;
-    border-top-left-radius: 45px;
-}
 
-.listeditems1{
-    width: 350px;
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.801);
-    text-align: center;
-    border-radius: 15px;
-    position: relative;
-    top: 20px;
-}
-.listeditems2{
-    width: 350px;
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.801);
-    text-align: center;
-    border-radius: 15px;
-    position: relative;
-    top: 20px;
-    left: 55px;
-}
-.listeditems1:hover{
-    border: 5px solid blue;
- 
- 
-     width: 350px;
-    height: 250px;
-}
-.listeditems2:hover{
-    border: 5px solid blue;
- 
- 
-     width: 350px;
-    height: 250px;
-}
-.listeditems3:hover{
-    border: 5px solid blue;
- 
- 
-     width: 350px;
-    height: 250px;
-}
-.listeditems3{
-    width: 350px;
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.801);
-    text-align: center;
-    border-radius: 15px;
-    position: relative;
-    top: 20px;
-    left: 110px;
-}
-.listeditems4{
-    width: 200px;
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.801);
-    text-align: center;
-    border-radius: 15px;
-    position: relative;
-    top: 20px;
-    left: 165px;
-}
-.listeditems5{
-    width: 200px;
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.801);
-    text-align: center;
-    border-radius: 15px;
-    position: relative;
-    top: 20px;
-    left: 215px;
-}
 
-.pic{
-    width: 200px;
-    height: 150px;
-}
-.listeditems1  :hover {
-    font-weight: bold;
-    color: blue;
-    cursor: pointer;
-    border: #2d2d2d;
-    border-radius: 45px ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .listeditems2  :hover {
-    font-weight: bold;
-    color: blue;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .listeditems3  :hover {
-    font-weight: bold;
-    color: blue;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .listeditems4  :hover {
-    font-weight: bold;
-    color: blue;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .listeditems5  :hover {
-    font-weight: bold;
-    color: blue;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-  }
-  .button :hover {
-    font-weight: bold;
-    color: red;
-    cursor: pointer;
-  }
-  span{
-      color: red;
-  }
-  span:hover{
-      color: black;
-  }
-button {
-    width: 120px;
-    height: 25px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
-    font-weight: bold !important;
-    background: linear-gradient(#800080);
-    background-color: #800080;
-    box-shadow: inset 0 1px 1px #a4e388;
-    border-color: #800080;
-    border: 1px solid;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    
-    text-shadow: 0 1px 2px rgba(0,0,0,.5);
-}
-.pageend{
-    width: 1350px;
-    height: 120px;
-    background-color: #2d2d2d;
-    position: static;
-    top: 4100px;
-    margin: auto;
-    text-align: center;
-    display: block;
-}
 
-/*LAST SECTION*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
