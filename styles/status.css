@@ -2472,6 +2472,9 @@ buttonz {
         height: 100px;
         width: 80%;
     }
+.list ul{
+overflow: auto;
+}
 
 
 
@@ -2742,7 +2745,9 @@ buttonz {
     buttonx{
         width: 290px;
     }
-
+.list ul{
+overflow: auto;
+}
 
 
 
