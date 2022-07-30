@@ -561,6 +561,32 @@ buttonz {
     height: 500px;
     text-align: center;
 }
+.vidlist li a{
+    width: auto;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    text-decoration: thistle;
+}
+
+.streaming{
+    width: 95%;
+    height: fit-content;
+    text-align: left;
+}
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 10px;
+}
+
 
 /*.slider ul{
     position: relative;
