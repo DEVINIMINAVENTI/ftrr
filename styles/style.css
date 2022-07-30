@@ -980,6 +980,13 @@ buttonz {
         height: 400px;
         text-align: center;
     }
+       .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
+    }
   
 
 
@@ -1188,6 +1195,13 @@ buttonz {
     }
     buttonx{
         width: 820px;
+    }
+        .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
     }
 
 
@@ -1406,6 +1420,14 @@ buttonz {
     buttonx{
         width: 755px;
     }
+       .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
+    }
+
 
 
 
@@ -1579,10 +1601,12 @@ buttonz {
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+      .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
+        height: 500px;
+        width: 100%;
     }
     .desktopview{
         width: 700px;
@@ -1817,10 +1841,12 @@ buttonz {
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+      .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
+        height: 500px;
+        width: 100%;
     }
     .desktopview{
         width: 700px;
@@ -2055,6 +2081,13 @@ buttonz {
     buttonx{
         width: 600px;
     }
+      .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
+    }
 
 
 
@@ -2287,9 +2320,9 @@ buttonz {
         
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+     .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
         height: 500px;
         width: 100%;
@@ -2551,9 +2584,9 @@ buttonz {
       
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+     .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
         height: 500px;
         width: 100%;
@@ -2827,9 +2860,9 @@ left: -15px;
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+     .slider {
+        left: -30px;
+        top: 150px;
         position: fixed;
         height: 500px;
         width: 400px;
@@ -3135,9 +3168,9 @@ overflow: hidden;
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+      .slider {
+        left: -35px;
+        top: 110px;
         position: fixed;
         height: 500px;
         width: 400px;
@@ -3442,9 +3475,9 @@ overflow: hidden;
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+   .slider {
+        left: -45px;
+        
         position: fixed;
         height: 500px;
         width: 400px;
@@ -3773,8 +3806,8 @@ overflow: hidden;
         text-align: center;
     }
     .slider {
-        left: 20px;
-        right: 20px;
+        left: -55px;
+        
         position: fixed;
         height: 500px;
         width: 400px;
