@@ -1,0 +1,655 @@
+*{
+    margin: auto;
+}
+nav{
+    width: auto;
+    min-height: 50px;
+    background-color:  white;
+    display: flex;
+    height: min-content;
+}
+.logo{
+    width: 220px;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    padding: 7px;
+    text-decoration: none;
+    color: blue;
+    letter-spacing: 0.1em;
+    
+}
+nav ul li a:hover{
+    border-top: 2px solid red;
+    color: rgba(0, 0, 255, 0.452);
+    border-bottom: 2px solid red;
+}
+.first{
+   width: 1350px;
+   height: 400px;
+   display: block;
+   background-color: darkblue;
+}
+.bacg{
+    width: 1350px;
+    height: 400px;
+}
+.first ul{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: -250px;
+    
+    width: 700px;
+}
+.first ul li{
+    padding-top: 17px;
+}
+.first ul li h1{
+    font-size: 35px;
+    color: white;
+    padding: 5px;
+    font-family:sans-serif;
+    border-radius: 10px;
+    background-color: rgb(5, 132, 141);
+}
+.first ul li p{
+    font-size: 20px;
+    color: blue;
+    font-family:sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(223, 145, 43);
+}
+
+.second{
+    width: auto;
+    height: fit-content;
+
+}
+.second ul{
+    list-style: none;
+    display: block;
+    text-align: center;
+    
+}
+.second ul li h1{
+    font-size: 30px;
+    color: rgb(72, 102, 201);
+    font-family: 'Times New Roman', Times, serif;
+}
+.second ul li p{
+    font-size: 20px;
+    color: #2d2d2d;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.third{
+    width: auto;
+    height: fit-content;
+    background-color: whitesmoke;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    
+}
+.third ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+.third ul li{
+    width: 280px;
+    height: 220px;
+    
+    background-color: peru;
+}
+.third ul li:hover{
+    border: 2px solid blue ;
+}
+.third ul li p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+}
+.third ul li a{
+    text-decoration: none;
+}
+
+
+.sixth{
+    width: 1350px;
+    height: 150px;
+    background-color: rgb(38, 56, 114);
+    padding-top: 30px;
+}
+.sixth ul{
+    list-style: none;
+    display: block;
+    text-align: center;
+    
+}
+.sixth ul li h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sixth ul li h3{
+    font-size: 20px;
+    color: #2d2d2d;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sixth ul li h3 a{
+    width: 200px;
+    background-color: rgb(43, 159, 226);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.seventh{
+    width: 1350px;
+    display: flex;
+    height: 300px;
+    background-color: #2d2d2d;
+}
+.seventh ul{
+    list-style: none;
+    display: block;
+}
+.seventh ul h1{
+    padding-bottom: 20px;
+}
+.seventh ul h1 {
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0.2em;
+}
+.seventh ul li a{
+    font-size: 17px;
+    color: rgb(36, 192, 184);
+    text-decoration: none;
+}
+
+
+
+.eight{
+    width: 1350px;
+    height: 250px;
+    text-align: center;
+    background-color: #2d2d2d;
+}
+.footerpic{
+    width: 400px;
+    height: 250px;
+}
+
+button {
+    width: 180px;
+    height: 31px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#800080);
+    background-color: #800080;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #800080;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    user-select: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+
+.nav-toggler{
+    height: 34px;
+    width: 44px;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: fixed;
+    top: -1px;
+    right: 5px;
+    border: none;
+    display: none;
+}
+.nav-toggler:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler span{
+    height: 2px;
+    width: 20px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.nav-toggler span::before{
+    transform: translateY(-6px);
+}
+.nav-toggler span::after{
+    transform: translateY(6px);   
+}
+
+
+.spree{
+    width: auto;
+    height: 1500px;
+    background-color: wheat;
+}
+.spree ul{
+    display: flex;
+    list-style: none;
+}
+.spreea{
+    width: 800px;
+    height: 1500px;
+    background-color: wheat;
+}
+.spreea ul{
+    display: block;
+    list-style: none;
+}
+.spreea ul h1{
+    font-size: 25px;
+    width: 700px;
+    position: relative;
+    left: -25px;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spreea ul h3{
+    
+    width: 700px;
+    position: relative;
+    left: -25px;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spreea ul p{
+    font-size: 18px;
+    width: 700px;
+    position: relative;
+    left: -25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 67, 116);
+}
+.livefeedsoc{
+    width: 40px;
+    height: 40px;
+}
+.soc{
+    width: 300px;
+    position: relative;
+    text-align: left;
+    left: -230px;
+    display: flex;
+}
+.spreeb{
+    width: 500px;
+    height: 1500px;
+    display: block;
+    background-color: wheat;
+}
+.spreeb ul{
+    position: relative;
+    top: 12px;
+    left: -20px;
+    display: block;
+    text-align: center;
+}
+.spreeb ul li{
+    width: 400px;
+    height: 200px;
+    background-color: none;
+    text-align: center;
+}
+.spreeb ul li a{
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    background-color: #800080;
+}
+.adserverpic{
+    width: 400px;
+    height: 160px;
+}
+
+
+/*.slider ul{
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 40px;
+}
+.slider ul li{
+    position: relative;
+    height: 100%;
+    float: left;
+}
+#slider #prev, #slider #next{
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0,0,0.6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+.preva{
+    position: absolute;
+    left: -10px;
+    top: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    display: none;
+}
+.nexta{
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+#slider #prev{
+    left: 10px;
+}
+#slider #next{
+    right: 10px;
+}
+*/
+
+
+
+
+
+
+
+/**
+
+
+
+
+@media screen and (max-width: 1150px) {
+    .logo{
+        width: 200px;
+        height: 90px;
+    }
+    nav ul li a{
+        padding: 7px;
+        text-decoration: none;
+        color: blue;
+        letter-spacing: 0.2em;
+        font-size: 15px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 240px;
+        height: 220px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 240px;
+        height: 150px;
+    }
+    .third ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .fifth ul li{
+        width: 240px;
+        height: 220px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 100px;
+        right: 100px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+       
+        text-align: center;
+    }
+    .bannerpic{
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .logo{
+        width: 200px;
+        height: 90px;
+    }
+    nav ul li a{
+        padding: 7px;
+        text-decoration: none;
+        color: blue;
+        letter-spacing: 0.2em;
+        font-size: 15px;
+    }
+    .first ul li h1{
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .first ul li p{
+        font-size: 17px;
+        color: white;
+        font-family:sans-serif;
+    }
+    .second ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .second ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .third ul li{
+        width: 240px;
+        height: 220px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 240px;
+        height: 150px;
+    }
+    .third ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .fifth ul li{
+        width: 240px;
+        height: 220px;
+        
+        background-color: #2d2d2d;
+    }
+    .fifth ul li p{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .ads{
+        width: auto;
+        position: fixed;
+        left: 50px;
+        right: 50px;
+        bottom: 100px;
+        top: 30px;
+        background-color: none;
+        
+        text-align: center;
+    }
+    .bannerpic{
+        width: 1000px;
+        height: 500px;
+        text-align: center;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+*/
