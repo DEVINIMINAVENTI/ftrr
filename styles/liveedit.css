@@ -46,6 +46,10 @@ nav ul li a:hover{
     
     width: 700px;
 }
+.backvideo{
+    width: 100%;
+
+}
 .first ul li{
     padding-top: 17px;
 }
@@ -267,6 +271,8 @@ button {
 .spree{
     width: auto;
     height: 1500px;
+    position: relative;
+    top: 300px;
     background-color: wheat;
 }
 .spree ul{
