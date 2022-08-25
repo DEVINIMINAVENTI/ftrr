@@ -129,6 +129,9 @@ nav ul li a:hover{
     width: 280px;
     height: 150px;
 }
+.thirdmobile{
+    display: none;
+}
 
 .fourth{
     width: auto;
