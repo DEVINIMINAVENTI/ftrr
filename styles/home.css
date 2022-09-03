@@ -129,9 +129,6 @@ nav ul li a:hover{
     width: 280px;
     height: 150px;
 }
-.thirdmobile{
-    display: none;
-}
 
 .fourth{
     width: auto;
@@ -646,6 +643,115 @@ buttonz {
     right: 10px;
 }
 */
+
+.newads{
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 20px;
+    bottom: 40px;
+    left: 20px;
+    text-align: center;
+    margin: auto;
+    float: right;
+    right: 20px;
+    background-image: linear-gradient(120deg, rgb(32, 162, 218) 40%, white 50%, rgb(73, 73, 206) 60%);
+}
+.standpic{
+    width: 350px;
+    height: 500px;
+}
+.closeadsbutton{
+    font-size: 35px;
+    background-color: white;
+    color: red;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+    text-align: center;
+}
+.flexpic{
+    display: none;
+}
+.newads ul{
+    width: auto;
+    height: auto;
+    list-style: none;
+    position: relative;
+    left: -20px;
+}
+.newads ul a li{
+    width: 100%;
+    height: 100%;
+    background-color: peru;
+    display: flex;
+}
+.adspics{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+.newads ul a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+.newads ul{
+    display: flex;
+}
+spand{
+    text-align: center;
+    width: 300px;
+    background-color: greenyellow;
+}
+/**
+.nav-toggler-ads{
+    height: 34px;
+    width: 44px;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
+    right: -0px;
+    border: none;
+    display: block;
+}
+.nav-toggler-ads:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler-ads span{
+    height: 2px;
+    width: 25px;
+    background-color: red;
+    display: block;
+    margin: auto;
+    position: relative;
+
+}
+
+.nav-toggler-ads span::before,
+.nav-toggler-ads span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+ 
+    background-color: white;
+}
+.nav-toggler-ads span::before{
+    transform: translateY(-0px);
+    rotate: 50deg;
+}
+.nav-toggler-ads span::after{
+    transform: translateY(0px);   
+    rotate: -45deg;
+}
+*/
+
 
 
 
@@ -1206,7 +1312,10 @@ buttonz {
         height: 500px;
         width: 100%;
     }
-
+    .standpic{
+        width: 280px;
+        height: 400px;
+    }
 
 
 
@@ -1261,6 +1370,10 @@ buttonz {
     }
     buttonx{
         width: 780px;
+    }
+    .standpic{
+        width: 250px;
+        height: 400px;
     }
 
 }
@@ -1630,6 +1743,10 @@ buttonz {
     buttonx{
         width: 680px;
     }
+    .standpic{
+        width: 230px;
+        height: 350px;
+    }
 
 
 
@@ -1873,6 +1990,10 @@ buttonz {
     buttonx{
         width: 650px;
     }
+    .standpic{
+        width: 200px;
+        height: 300px;
+    }
 
 
 
@@ -2090,6 +2211,19 @@ buttonz {
         position: fixed;
         height: 500px;
         width: 100%;
+    }
+
+
+    .newads ul{
+        display: block;
+    }
+    .standpic{
+       display: none;
+    }
+    .flexpic{
+        display: block;
+        width: 100%;
+        height: 170px;
     }
 
 
@@ -4025,7 +4159,9 @@ overflow: hidden;
     left: -px;
     word-spacing: 3px;
 }
-
+.flexpic{
+    height: 100px;
+}
 
 
 
