@@ -643,7 +643,9 @@ buttonz {
     right: 10px;
 }
 */
-
+.thirdmobile{
+    display: none;
+}
 .newads{
     width: auto;
     height: auto;
