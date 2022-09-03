@@ -3,6 +3,21 @@ function bling(){
 }
 
 
+document.querySelector(".closeadsbutton").addEventListener("click", function(){
+  document.querySelector(".newads").style.display = "none";
+});
+
+
+window.addEventListener("load", function(){
+  setTimeout(
+    function open(event){
+      document.querySelector(".newads").style.display = "block";
+    },
+    1000
+  )
+})
+
+
 
 
 const navTogglera = document.querySelector(".nav-toggler");
