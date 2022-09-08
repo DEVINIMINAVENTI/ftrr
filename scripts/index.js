@@ -1,6 +1,3 @@
-function bling(){
-  setTimeout("location.href='https://thaudray.com/4/5248611/'",1000);
-}
 
 
 document.querySelector(".closeadsbutton").addEventListener("click", function(){
@@ -16,8 +13,6 @@ window.addEventListener("load", function(){
     1000
   )
 })
-
-
 
 
 const navTogglera = document.querySelector(".nav-toggler");
@@ -44,15 +39,14 @@ function navToggles(){
 }
 
 
-
 const navTogglerc = document.querySelector(".buttony");
 
 navTogglerc.addEventListener('click', navToggley);
 
 function navToggley(){
 
-    const nav = document.querySelector(".ninth");
-    nav.classList.toggle("closelist");
+    const nav = document.querySelector(".tenth");
+    nav.classList.toggle("closelista");
    
 }
 
@@ -67,6 +61,54 @@ function navToggled(){
     nav.classList.toggle("showads");
    
 }
+
+
+
+
+
+/**
+ * 
+ * 
+ * 
+
+const navTogglere = document.querySelector(".buttonz");
+
+navTogglere.addEventListener('click', navTogglee);
+
+function navTogglee(){
+
+    const nav = document.querySelector(".ads");
+    nav.classList.toggle("showads");
+   
+}
+
+
+
+
+
+const navTogglerc = document.querySelector(".buttony");
+
+navTogglerc.addEventListener('click', navToggley);
+
+function navToggley(){
+
+    const nav = document.querySelector(".ninth");
+    nav.classList.toggle("closelist");
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -124,4 +166,4 @@ var responsiveSlider = function() {
     
     window.onload = function() {
     responsiveSlider();  
-    }
+    } */
