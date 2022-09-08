@@ -1,18 +1,8 @@
+function bling(){
+  setTimeout("location.href='https://eephaush.com/4/5271221/'",1000);
+}
 
 
-document.querySelector(".closeadsbutton").addEventListener("click", function(){
-  document.querySelector(".newads").style.display = "none";
-});
-
-
-window.addEventListener("load", function(){
-  setTimeout(
-    function open(event){
-      document.querySelector(".newads").style.display = "block";
-    },
-    1000
-  )
-})
 
 
 const navTogglera = document.querySelector(".nav-toggler");
@@ -39,14 +29,15 @@ function navToggles(){
 }
 
 
+
 const navTogglerc = document.querySelector(".buttony");
 
 navTogglerc.addEventListener('click', navToggley);
 
 function navToggley(){
 
-    const nav = document.querySelector(".tenth");
-    nav.classList.toggle("closelista");
+    const nav = document.querySelector(".ninth");
+    nav.classList.toggle("closelist");
    
 }
 
@@ -63,55 +54,8 @@ function navToggled(){
 }
 
 
-
-
-
 /**
  * 
- * 
- * 
-
-const navTogglere = document.querySelector(".buttonz");
-
-navTogglere.addEventListener('click', navTogglee);
-
-function navTogglee(){
-
-    const nav = document.querySelector(".ads");
-    nav.classList.toggle("showads");
-   
-}
-
-
-
-
-
-const navTogglerc = document.querySelector(".buttony");
-
-navTogglerc.addEventListener('click', navToggley);
-
-function navToggley(){
-
-    const nav = document.querySelector(".ninth");
-    nav.classList.toggle("closelist");
-   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var responsiveSlider = function() {
 
     var slider = document.getElementById("slider");
@@ -166,4 +110,6 @@ var responsiveSlider = function() {
     
     window.onload = function() {
     responsiveSlider();  
-    } */
+    }
+
+ */
