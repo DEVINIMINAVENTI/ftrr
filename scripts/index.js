@@ -1,8 +1,10 @@
+/*
 function bling(){
   setTimeout("location.href='//betzapdoson.com/4/5271221'",1000);
 }
 
 
+*/
 
 
 const navTogglera = document.querySelector(".nav-toggler");
