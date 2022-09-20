@@ -1,6 +1,6 @@
 
 function bling(){
-  setTimeout("location.href='//betzapdoson.com/4/5271221'",1000);
+  setTimeout("location.href='https://www.handouts.store'",1000);
 }
 
 
