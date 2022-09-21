@@ -3,8 +3,3 @@ window.addEventListener("load", function(){
   })
 
   
-  
-function bling(){
-    setTimeout("location.href='//www.handouts.store/'",1000);
-  }
-  
