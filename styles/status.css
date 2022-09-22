@@ -94,52 +94,69 @@ nav ul li a:hover{
     background-color: whitesmoke;
     position: relative;
     top: 30px;
-    display: block;
     text-align: center;
     margin: auto;
     justify-content: center;
     justify-items: center;
     justify-self: center;
-
-}
-
-
-
-/*EDIT THE NEW PROFILE HERE*/
-.new ul{
-    list-style: none;
-}
-.list{
-    
     
 }
-.listing ul{
-    list-style: none;
-}
-.list ul{
+.third ul{
     display: flex;
     list-style: none;
-    overflow-x: auto;
-    position: relative;
-    left: -30px;
+    padding-top: 20px;
 }
-.picture{
-    padding: 5px;
-    max-width: 300px;
-    max-height: 400px;
+.third ul li{
+    width: 280px;
+    height: 220px;
+    text-align: left;
+    background-color: rgb(194, 194, 194);
+}
+.third ul li:hover{
+    border: 2px solid peru ;
+}    
+
+.third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+    font-size: 17px;
+    color: blue;    
+    text-decoration: none;
+    width: 280px;
+
+
+
+}
+.third ul li a{
+    text-decoration: underline;
+}
+.pica{
+    width: 280px;
+    visibility: hidden;
+    height: 150px;
+}
+
+.fourth{
+    width: auto;
+    height: fit-content;
+    padding-top: 30px;
+}
+.fourth ul{
+    list-style: none;
+    display: block;
+    text-align: center;
     
 }
-.vidcoms{
-    padding: 15px;
-    padding-right: 15px;
+.fourth ul li h1{
+    font-size: 30px;
+    color: rgb(72, 102, 201);
+    font-family: 'Times New Roman', Times, serif;
 }
-.date{
+.fourth ul li p{
     font-size: 20px;
-    color: #676565;
-}
-.datename{
-    font-size: 20px;
-    color: #676565;
+    color: #2d2d2d;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -551,6 +568,32 @@ buttonz {
     height: 500px;
     text-align: center;
 }
+.vidlist li a{
+    width: auto;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    text-decoration: thistle;
+}
+
+.streaming{
+    width: 95%;
+    height: fit-content;
+    text-align: left;
+}
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 10px;
+}
+
 
 /*.slider ul{
     position: relative;
@@ -652,13 +695,36 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
-   
+    .third ul li{
+        width: 240px;
+        height: 220px;
+        border: 2px solid red;
+        background-color: peru;
     }
-    .picture{
-        padding: 5px;
-        max-width: 250px;
-        max-height: 350px;
-        
+    .pica{
+        width: 240px;
+        height: 150px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .fifth ul li{
@@ -767,6 +833,10 @@ buttonz {
         height: 150px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 15px;
         color: white;
         text-align: center;
@@ -833,10 +903,7 @@ buttonz {
 }
 
 
-@media screen and (max-width: 1024px) {
 
-
-}
 
 
 @media screen and (max-width: 1000px) {
@@ -871,7 +938,37 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
+    .third ul li{
+        width: 200px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 200px;
+        height: 130px;
+    }
+    .third ul li p{
+    padding-left: 5px;
 
+    text-align: left;
+
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
     .fifth ul li{
         width: 200px;
@@ -901,6 +998,13 @@ buttonz {
         width: 800px;
         height: 400px;
         text-align: center;
+    }
+       .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
     }
   
 
@@ -1015,7 +1119,47 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
-  
+    .third ul li{
+        width: 200px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 200px;
+        height: 130px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 200px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
 
     .fifth{
         position: relative;
@@ -1074,6 +1218,13 @@ buttonz {
     }
     buttonx{
         width: 820px;
+    }
+        .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
     }
 
 
@@ -1214,6 +1365,47 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
+    .third ul li{
+        width: 180px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 180px;
+        height: 130px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 180px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
 
     .fifth{
         position: relative;
@@ -1255,6 +1447,14 @@ buttonz {
     buttonx{
         width: 755px;
     }
+       .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
+    }
+
 
 
 
@@ -1361,7 +1561,47 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
-   
+    .third ul li{
+        width: 170px;
+        height: 180px;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 170px;
+        height: 130px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 170px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
 
     .fifth{
         position: relative;
@@ -1392,10 +1632,12 @@ buttonz {
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+      .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
+        height: 500px;
+        width: 100%;
     }
     .desktopview{
         width: 700px;
@@ -1527,7 +1769,52 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
-   
+    .third ul li{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 600px;
+        height: 300px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 600px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
 
     .fifth{
@@ -1589,10 +1876,12 @@ buttonz {
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+      .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
+        height: 500px;
+        width: 100%;
     }
     .desktopview{
         width: 700px;
@@ -1728,7 +2017,53 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
-   
+    .third ul li{
+        width: 500px;
+        height: 400px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 500px;
+        height: 300px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 500px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
 
     .fifth{
         position: relative;
@@ -1784,6 +2119,13 @@ buttonz {
     }
     buttonx{
         width: 600px;
+    }
+      .slider {
+        left: -20px;
+      top: 150px;
+        position: fixed;
+        height: 500px;
+        width: 100%;
     }
 
 
@@ -1915,7 +2257,53 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
-   
+    .third ul li{
+        width: 400px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 400px;
+        height: 200px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 400px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
 
     .fifth{
         position: relative;
@@ -1975,9 +2363,9 @@ buttonz {
         
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+     .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
         height: 500px;
         width: 100%;
@@ -2135,7 +2523,54 @@ buttonz {
         width: 350px;
         font-family: 'Times New Roman', Times, serif;
     }
-   
+    .third ul li{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        border: 2px solid red;
+        background-color: peru;
+    }
+    .pica{
+        width: 350px;
+        height: 200px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 350px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        width: 350px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 350px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
 
     .fifth{
@@ -2196,9 +2631,9 @@ buttonz {
       
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+     .slider {
+        left: -20px;
+      top: 150px;
         position: fixed;
         height: 500px;
         width: 100%;
@@ -2363,7 +2798,59 @@ buttonz {
         width: auto;
         font-family: 'Times New Roman', Times, serif;
     }
-    
+    .third ul li{
+        width: 360px;
+        height: fit-content;
+        position: relative;
+        border: 1px solid red;
+        background-color: peru;
+border-radius: 13px;
+overflow: hidden;
+    }
+    .pica{
+        width: 360px;
+        height: 180px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+position: relative;
+left: -15px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 320px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        width: 320px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 320px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
 
     .fifth{
         position: relative;
@@ -2424,9 +2911,9 @@ buttonz {
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+     .slider {
+        left: -30px;
+        top: 150px;
         position: fixed;
         height: 500px;
         width: 400px;
@@ -2472,10 +2959,16 @@ buttonz {
         height: 100px;
         width: 80%;
     }
-.list ul{
-overflow: auto;
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 5px;
 }
-
 
 
 
@@ -2613,7 +3106,57 @@ overflow: auto;
         text-align: left;
         font-family: 'Times New Roman', Times, serif;
     }
-    
+    .third ul li{
+        width: 310px;
+        height: fit-content;
+        position: relative;
+        border: 1px solid red;
+        background-color: peru;
+border-radius: 10px;
+overflow: hidden;
+    }
+    .pica{
+        width: 310px;
+        height: 180px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 280px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 25px;
+        width: 280px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 20px;
+        color: #2d2d2d;
+        width: 280px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
 
     .fifth{
@@ -2689,9 +3232,9 @@ overflow: auto;
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+      .slider {
+        left: -35px;
+        top: 110px;
         position: fixed;
         height: 500px;
         width: 400px;
@@ -2745,8 +3288,15 @@ overflow: auto;
     buttonx{
         width: 290px;
     }
-.list ul{
-overflow: auto;
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 3px;
 }
 
 
@@ -2880,17 +3430,53 @@ overflow: auto;
         text-align: left;
         font-family: 'Times New Roman', Times, serif;
     }
-    .list ul{
-        display: flex;
-        list-style: none;
-        overflow-x: auto;
+    .third ul li{
+        width: 220px;
+        height: fit-content;
         position: relative;
-    
+        border: 1px solid red;
+        background-color: peru;
     }
-    .picture{
-        padding: 5px;
-        max-width: 250px;
-        max-height: 400px;
+    .pica{
+        width: 220px;
+        height: 180px;
+    }
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 220px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 20px;
+        width: 220px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 18px;
+        color: #2d2d2d;
+        width: 220px;
+        font-family: 'Times New Roman', Times, serif;
     }
 
 
@@ -2966,9 +3552,9 @@ overflow: auto;
        
         text-align: center;
     }
-    .slider {
-        left: 20px;
-        right: 20px;
+   .slider {
+        left: -45px;
+        
         position: fixed;
         height: 500px;
         width: 400px;
@@ -3022,6 +3608,16 @@ overflow: auto;
     buttonx{
         width: 240px;
     }
+    .streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 3px;
+}
 
 
 
@@ -3159,25 +3755,56 @@ overflow: auto;
         text-align: left;
         font-family: 'Times New Roman', Times, serif;
     }
-    .listing ul{
-        list-style: none;
-    }
-    .list ul{
-        display: flex;
-        list-style: none;
-        overflow-x: auto;
+    .third ul li{
+        width: 160px;
+        height: fit-content;
         position: relative;
-    
+        border: 1px solid red;
+        background-color: peru;
     }
-    .picture{
-        padding: 5px;
-        max-width: 200px;
-        max-height: 400px;
+    .pica{
+        width: 160px;
+        height: 120px;
     }
-    .vidcoms{
-        width: 500px;
+    .third{
+        position: relative;
+        top: 50px;
+        display: block;
     }
-   
+    .third ul{
+        display: block;
+        padding-top: 20px;
+    }
+    .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
+        font-size: 13px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        width: 160px;
+    }
+
+    .fourth{
+        position: relative;
+        top: 10px;
+    }
+    .fourth ul li h1{
+        font-size: 18px;
+        width: 160px;
+        color: rgb(72, 102, 201);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .fourth ul li p{
+        font-size: 15px;
+        color: #2d2d2d;
+        width: 160px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
     .fifth{
         position: relative;
         top: 40px;
@@ -3270,8 +3897,8 @@ overflow: auto;
         text-align: center;
     }
     .slider {
-        left: 20px;
-        right: 20px;
+        left: -55px;
+        
         position: fixed;
         height: 500px;
         width: 400px;
@@ -3330,7 +3957,16 @@ overflow: auto;
     buttonx{
         width: 180px;
     }
-
+.streaming p{
+    background-color: peru;
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    text-transform: bold;
+    position: relative;
+    left: -px;
+    word-spacing: 3px;
+}
 
 
 
