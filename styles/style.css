@@ -109,24 +109,31 @@ nav ul li a:hover{
 .third ul li{
     width: 280px;
     height: 220px;
-    
-    background-color: peru;
+    text-align: left;
+    background-color: rgb(194, 194, 194);
 }
 .third ul li:hover{
-    border: 2px solid blue ;
-}
+    border: 2px solid peru ;
+}    
+
 .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
     font-size: 17px;
-    color: white;
-    text-align: center;
+    color: blue;    
     text-decoration: none;
     width: 280px;
+
+
+
 }
 .third ul li a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 .pica{
     width: 280px;
+    visibility: hidden;
     height: 150px;
 }
 
@@ -699,6 +706,10 @@ buttonz {
         height: 150px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 15px;
         color: white;
         text-align: center;
@@ -822,6 +833,10 @@ buttonz {
         height: 150px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 15px;
         color: white;
         text-align: center;
@@ -934,6 +949,10 @@ buttonz {
         height: 130px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 14px;
         color: white;
         text-align: center;
@@ -1115,6 +1134,10 @@ buttonz {
         top: 50px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 14px;
         color: white;
         text-align: center;
@@ -1357,6 +1380,10 @@ buttonz {
         top: 50px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 13px;
         color: white;
         text-align: center;
@@ -1549,6 +1576,10 @@ buttonz {
         top: 50px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 13px;
         color: white;
         text-align: center;
@@ -1759,6 +1790,10 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 25px;
         color: white;
         text-align: center;
@@ -2003,6 +2038,10 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 25px;
         color: white;
         text-align: center;
@@ -2239,6 +2278,10 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 20px;
         color: white;
         text-align: center;
@@ -2501,6 +2544,10 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 18px;
         color: white;
         text-align: center;
@@ -2776,6 +2823,10 @@ position: relative;
 left: -15px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 18px;
         color: white;
         text-align: center;
@@ -3079,6 +3130,10 @@ overflow: hidden;
 
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 18px;
         color: white;
         text-align: center;
@@ -3396,6 +3451,10 @@ overflow: hidden;
         padding-top: 20px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 15px;
         color: white;
         text-align: center;
@@ -3717,6 +3776,10 @@ overflow: hidden;
         padding-top: 20px;
     }
     .third ul li p{
+    padding-left: 5px;
+
+    text-align: left;
+
         font-size: 13px;
         color: white;
         text-align: center;
