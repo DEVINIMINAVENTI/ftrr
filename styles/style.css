@@ -4,13 +4,40 @@
 nav{
     width: auto;
     min-height: 50px;
-    background-color:  white;
+
     display: flex;
     height: min-content;
 }
+header{
+    position: fixed;
+    width: 100%;
+    background-color:  peru;
+    height: fit-content;
+    top: 0;
+    left: 0;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    background-color:  peru;
+    bottom: 0;
+    left: 0;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
 .logo{
-    width: 220px;
-    height: 100px;
+    width: 180px;
+    height: 70px;
+}
+spanlo{
+    color: rgb(99, 99, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
 }
 nav ul{
     display: flex;
@@ -19,9 +46,10 @@ nav ul{
 nav ul li a{
     padding: 7px;
     text-decoration: none;
-    color: blue;
+    color: white;
+    line-height: 10px;
     letter-spacing: 0.1em;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav ul li a:hover{
     border-top: 2px solid red;
@@ -104,39 +132,78 @@ nav ul li a:hover{
 .third ul{
     display: flex;
     list-style: none;
+    position: relative;
+    left: -20px;
     padding-top: 20px;
 }
 .third ul li{
     width: 280px;
     height: 220px;
+    border-radius: 5px;
+    border: 2px solid #2d2d2d;
     text-align: left;
-    background-color: rgb(194, 194, 194);
+    background-color: white;
 }
 .third ul li:hover{
-    border: 2px solid peru ;
-}    
-
+    border: 2px solid blue ;
+}
 .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
     font-size: 17px;
-    color: blue;    
+    color: #2d2d2d;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 5px;
     text-decoration: none;
     width: 280px;
-
-
-
+}
+.third ul li h5{
+    font-size: 17px;
+    color: #2d2d2d;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 5px;
+    text-decoration: none;
+    width: 280px;
+}
+spanl{
+    color: rgb(114, 114, 238);
 }
 .third ul li a{
-    text-decoration: underline;
+    text-decoration: none;
 }
 .pica{
     width: 280px;
-    visibility: hidden;
     height: 150px;
+    border-bottom: 1px solid #2d2d2d;
 }
+.picas{
+    width: 100%;
+    height: 400px;
+}
+.statement{
+    height: fit-content;
+    display: flex;
 
+}
+.leftstatement{
+    width: 700px;
+    background-color: whitesmoke;
+}
+.rightstatement{
+    width: auto;
+    background-color: #fff;
+}
+.statement p{
+    color: #2d2d2d;
+    padding: 8px;
+    text-align: justify;
+    font-size: 18px;
+    user-select: none;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .fourth{
     width: auto;
     height: fit-content;
@@ -202,6 +269,8 @@ nav ul li a:hover{
     list-style: none;
     display: block;
     text-align: center;
+    position: relative;
+    left: -20px;
     
 }
 .sixth ul li h1{
@@ -222,7 +291,7 @@ nav ul li a:hover{
     padding: 10px;
     position: relative;
     top: 10px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
 }
@@ -288,7 +357,7 @@ button {
 
 
 .nav-toggler{
-    height: 34px;
+    height: fit-content;
     width: 44px;
     background-color: black;
     border-radius: 4px;
@@ -306,7 +375,7 @@ button {
 .nav-toggler span{
     height: 2px;
     width: 20px;
-    background-color: white;
+    background-color: black;
     display: block;
     margin: auto;
     position: relative;
@@ -319,13 +388,13 @@ button {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: black;
 }
 .nav-toggler span::before{
-    transform: translateY(-6px);
+    transform: translateY(-8px);
 }
 .nav-toggler span::after{
-    transform: translateY(6px);   
+    transform: translateY(8px);   
 }
 
 buttonx {
@@ -650,16 +719,132 @@ buttonz {
     right: 10px;
 }
 */
+.thirdmobile{
+    display: none;
+}
+.newads{
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 80px;
+    bottom: 40px;
+    left: 20px;
+    text-align: center;
+    margin: auto;
+    visibility: hidden;
+    float: right;
+    right: 20px;
+    background-image: linear-gradient(120deg, rgb(32, 162, 218) 40%, white 50%, rgb(73, 73, 206) 60%);
+}
+.standpic{
+    width: 350px;
+    height: 500px;
+}
+.closeadsbutton{
+    font-size: 35px;
+    background-color: white;
+    color: red;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+    text-align: center;
+}
+.flexpic{
+    display: none;
+}
+.newads ul{
+    width: auto;
+    height: auto;
+    list-style: none;
+    position: relative;
+    left: -20px;
+}
+.newads ul a li{
+    width: 100%;
+    height: 100%;
+    background-color: peru;
+    display: flex;
+}
+.adspics{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+.newads ul a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+.newads ul{
+    display: flex;
+}
+spand{
+    text-align: center;
+    width: 300px;
+    background-color: greenyellow;
+}
+/**
+.nav-toggler-ads{
+    height: 34px;
+    width: 44px;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    top: -1px;
+    right: -0px;
+    border: none;
+    display: block;
+}
+.nav-toggler-ads:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler-ads span{
+    height: 2px;
+    width: 25px;
+    background-color: red;
+    display: block;
+    margin: auto;
+    position: relative;
+
+}
+
+.nav-toggler-ads span::before,
+.nav-toggler-ads span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+ 
+    background-color: white;
+}
+.nav-toggler-ads span::before{
+    transform: translateY(-0px);
+    rotate: 50deg;
+}
+.nav-toggler-ads span::after{
+    transform: translateY(0px);   
+    rotate: -45deg;
+}
+*/
+
+
+
+  .closeadsbutton{
+        font-size: 20px
+    }
 
 
 
 
 
 
-
-
-
-
+@media screen and (max-width: 1280px) {
+    
+}
 
 
 
@@ -671,9 +856,9 @@ buttonz {
     nav ul li a{
         padding: 7px;
         text-decoration: none;
-        color: blue;
+        color: white;
         letter-spacing: 0.2em;
-        font-size: 15px;
+        font-size: 16px;
     }
     .first ul li h1{
         font-size: 30px;
@@ -695,26 +880,31 @@ buttonz {
         color: #2d2d2d;
         font-family: 'Times New Roman', Times, serif;
     }
+    .third{
+        padding-top: 20px;
+        background-color: white;
+    }
+    .third ul{
+        background-color: none;
+    }
     .third ul li{
         width: 240px;
         height: 220px;
-        border: 2px solid red;
-        background-color: peru;
+        text-align: left;
+
+
     }
     .pica{
         width: 240px;
         height: 150px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
-        font-size: 15px;
-        color: white;
-        text-align: center;
+        font-size: 17px;
+        color: #2d2d2d;
+        text-align: left;
+        padding-left: 5px;
         text-decoration: none;
-        width: 220px;
+        width: auto;
     }
     .fourth ul li h1{
         font-size: 25px;
@@ -796,10 +986,10 @@ buttonz {
         height: 90px;
     }
     nav ul li a{
-        padding: 7px;
+        padding: 3px;
         text-decoration: none;
-        color: blue;
-        letter-spacing: 0.2em;
+        color: white;
+        letter-spacing: 0.08em;
         font-size: 15px;
     }
     .first ul li h1{
@@ -825,23 +1015,18 @@ buttonz {
     .third ul li{
         width: 240px;
         height: 220px;
-        border: 2px solid red;
-        background-color: peru;
+
     }
     .pica{
         width: 240px;
         height: 150px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 15px;
-        color: white;
-        text-align: center;
+
+        text-align: left;
         text-decoration: none;
-        width: 220px;
+        width: auto;
     }
     .fourth ul li h1{
         font-size: 25px;
@@ -866,6 +1051,9 @@ buttonz {
         text-align: center;
         text-decoration: none;
         width: 220px;
+    }
+    .sixth ul li h1{
+        font-size: 20px;
     }
     .ads{
         width: auto;
@@ -914,8 +1102,8 @@ buttonz {
     nav ul li a{
         padding: 7px;
         text-decoration: none;
-        color: blue;
-        letter-spacing: 0.2em;
+        color: white;
+
         font-size: 15px;
     }
     .first ul li h1{
@@ -941,21 +1129,23 @@ buttonz {
     .third ul li{
         width: 200px;
         height: 180px;
-        border: 2px solid red;
-        background-color: peru;
+        border: 1px solid #2d2d2d;
     }
     .pica{
         width: 200px;
         height: 130px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 14px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
+        text-decoration: none;
+        width: 200px;
+    }
+    .third ul li h5{
+        font-size: 14px;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 200px;
     }
@@ -1037,8 +1227,9 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
+        position: relative;
         height: fit-content;
     }
     .logo{
@@ -1048,14 +1239,23 @@ buttonz {
         left: 20px;
         top: 10px;
     }
+    header{
+        background-color: peru;
+        height: 80px;
+    }
+    .logo-ul{
+     position: relative;
+     top: -20px;
+    }
     .navbar{
      
         width: auto;
-        background-color: white;
+        background-color: none;
         display: block;
         list-style: none;
-       padding-top: 120px;
+        padding-top: 80px;
         height: 300px;
+        transition: all .5s ease;
     }
     .navbarbaa{
         display: none;
@@ -1078,16 +1278,18 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 1px solid blue;
+        border-bottom: 0.002px solid whitesmoke;
         width: auto;
+    }
+    nav ul li:last-child{
+        border-bottom: none;
     }
     nav ul li a{
         width: auto;
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: auto;
-        letter-spacing: 0.2em;
        
     }
     
@@ -1122,8 +1324,7 @@ buttonz {
     .third ul li{
         width: 200px;
         height: 180px;
-        border: 2px solid red;
-        background-color: peru;
+    
     }
     .pica{
         width: 200px;
@@ -1134,13 +1335,9 @@ buttonz {
         top: 50px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 14px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 200px;
     }
@@ -1226,7 +1423,10 @@ buttonz {
         height: 500px;
         width: 100%;
     }
-
+    .standpic{
+        width: 280px;
+        height: 400px;
+    }
 
 
 
@@ -1282,6 +1482,10 @@ buttonz {
     buttonx{
         width: 780px;
     }
+    .standpic{
+        width: 250px;
+        height: 400px;
+    }
 
 }
 
@@ -1292,7 +1496,7 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -1306,10 +1510,10 @@ buttonz {
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     .navbarbaa{
@@ -1326,14 +1530,14 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 0.02px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: 100%;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.02em;
        
     }
     
@@ -1368,8 +1572,7 @@ buttonz {
     .third ul li{
         width: 180px;
         height: 180px;
-        border: 2px solid red;
-        background-color: peru;
+
     }
     .pica{
         width: 180px;
@@ -1380,13 +1583,9 @@ buttonz {
         top: 50px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 13px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 180px;
     }
@@ -1488,7 +1687,7 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -1499,13 +1698,16 @@ buttonz {
         left: 20px;
         top: 10px;
     }
+    .logo-ul{
+        top: -8px;
+    }
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     .navbarbaa{
@@ -1522,14 +1724,14 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 0.2px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: 100%;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.03em;
        
     }
     
@@ -1564,8 +1766,7 @@ buttonz {
     .third ul li{
         width: 170px;
         height: 180px;
-        border: 2px solid red;
-        background-color: peru;
+
     }
     .pica{
         width: 170px;
@@ -1576,13 +1777,9 @@ buttonz {
         top: 50px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 13px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 170px;
     }
@@ -1658,6 +1855,10 @@ buttonz {
     buttonx{
         width: 680px;
     }
+    .standpic{
+        width: 230px;
+        height: 350px;
+    }
 
 
 
@@ -1689,7 +1890,7 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -1703,10 +1904,10 @@ buttonz {
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     nav ul li a:hover{
@@ -1729,14 +1930,14 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 1px solid blue;
+        border-bottom: 0.002px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: 100%;
-        font-size: 18px;
+        font-size: 14px;
         letter-spacing: 0.2em;
        
     }
@@ -1773,8 +1974,7 @@ buttonz {
         width: 600px;
         height: 400px;
         position: relative;
-        border: 2px solid red;
-        background-color: peru;
+    
     }
     .pica{
         width: 600px;
@@ -1789,14 +1989,11 @@ buttonz {
         display: block;
         padding-top: 20px;
     }
+    .third ul li h5,
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 25px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 600px;
     }
@@ -1905,6 +2102,11 @@ buttonz {
     buttonx{
         width: 650px;
     }
+    .standpic{
+        width: 200px;
+        height: 300px;
+    }
+
 
 
 
@@ -1936,7 +2138,7 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -1950,10 +2152,10 @@ buttonz {
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     nav ul li a:hover{
@@ -1976,11 +2178,11 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 1px solid red;
+        border-bottom: 0.002px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: auto;
         letter-spacing: 0.2em;
@@ -2021,8 +2223,7 @@ buttonz {
         width: 500px;
         height: 400px;
         position: relative;
-        border: 2px solid red;
-        background-color: peru;
+    
     }
     .pica{
         width: 500px;
@@ -2038,13 +2239,9 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 25px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 500px;
     }
@@ -2129,6 +2326,19 @@ buttonz {
     }
 
 
+    .newads ul{
+        display: block;
+    }
+    .standpic{
+       display: none;
+    }
+    .flexpic{
+        display: block;
+        width: 100%;
+        height: 170px;
+    }
+
+
 
 
 
@@ -2160,7 +2370,7 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -2174,10 +2384,10 @@ buttonz {
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     .navbar{
@@ -2204,11 +2414,11 @@ buttonz {
     }
     
     nav ul li{
-        border-bottom: 1px solid blue;
+        border-bottom: 0.02px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: 100%;
         letter-spacing: 0.2em;
@@ -2261,12 +2471,11 @@ buttonz {
         width: 400px;
         height: 250px;
         position: relative;
-        border: 2px solid red;
-        background-color: peru;
+
     }
     .pica{
         width: 400px;
-        height: 200px;
+        height: 180px;
     }
     .third{
         position: relative;
@@ -2278,13 +2487,9 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 20px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 400px;
     }
@@ -2438,9 +2643,12 @@ buttonz {
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
+    }
+    header{
+        width: 100%;
     }
     .logo{
         width: 300px;
@@ -2452,10 +2660,10 @@ buttonz {
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     nav ul li a:hover{
@@ -2478,14 +2686,13 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 0.02px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: 100%;
-        letter-spacing: 0.2em;
        
     }
     
@@ -2527,8 +2734,14 @@ buttonz {
         width: 350px;
         height: 250px;
         position: relative;
-        border: 2px solid red;
-        background-color: peru;
+
+    }
+    .statement{
+        display: block;
+    }
+    .leftstatement,
+    .rightstatement{
+        width: auto;
     }
     .pica{
         width: 350px;
@@ -2544,10 +2757,6 @@ buttonz {
         padding-top: 20px;
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 18px;
         color: white;
         text-align: center;
@@ -2709,29 +2918,39 @@ buttonz {
     
     nav{
         width: auto;
-        min-height: 50px;
-        background-color:  white;
+        min-height: 95px;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
+    header{
+        background-color: peru;
+      
+    }
     .logo{
-        width: 300px;
+        width: 200px;
         height: 90px;
         position: absolute;
         left: 20px;
         top: 10px;
     }
+    .logo-ul{
+        background-color: peru;
+        top: -90px;
+        position: relative;
+    }
     .navbar{
      
         width: 100%;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     .navbar ul li{
         width: auto;
+        background-color: peru;
     }
     nav ul li a:hover{
         border-top: none;
@@ -2745,7 +2964,12 @@ buttonz {
     }
     nav {
         display: block;
+        background-color: peru;
     }
+    nav ul{
+        background-color: peru;
+    }
+
     .nav-toggler{
         display: block;
         position: absolute;
@@ -2753,20 +2977,21 @@ buttonz {
         top: 40px;
     }
     nav ul li{
-        border-bottom: 0.5px solid blue;
+        border-bottom: 0.1px solid white;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
         width: auto;
-        letter-spacing: 0.2em;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.02em;
        
     }
     
     .first{
         position: relative;
-        top: 70px;
+        top: 10px;
     }
     .first ul{
         width: 320px;
@@ -2784,56 +3009,123 @@ buttonz {
         font-family:sans-serif;
     }
     .second ul li h1{
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(72, 102, 201);
         font-family: 'Times New Roman', Times, serif;
     }
     .second{
         position: relative;
-        top: 50px;
+        top: 70px;
+    }
+    .second ul{
+        position: relative;
+        left: -20px;
     }
     .second ul li p{
-        font-size: 20px;
+        font-size: 18px;
         color: #2d2d2d;
         width: auto;
+        text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
     .third ul li{
         width: 360px;
         height: fit-content;
         position: relative;
-        border: 1px solid red;
-        background-color: peru;
-border-radius: 13px;
+     
+border-radius: 5px;
 overflow: hidden;
     }
     .pica{
-        width: 360px;
+        width: 100%;
         height: 180px;
+    }
+    .picas{
+        width: 100%;
+        height: 250px;
     }
     .third{
         position: relative;
-        top: 50px;
+        top: 70px;
         display: block;
     }
     .third ul{
         display: block;
         padding-top: 20px;
 position: relative;
-left: -15px;
+left: -20px;
+
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 18px;
-        color: white;
+        color: #2d2d2d;
         text-align: center;
         text-decoration: none;
         width: 320px;
     }
+    .thirdmobile ul li{
+        width: 180px;
+        height: fit-content;
+        position: relative;
+       border: 1px solid #2d2d2d;
+border-radius: 2px;
+left: -10px;
+overflow: hidden;
+    }
+  
+    .thirdmobile{
+        position: relative;
 
+        display: block;
+        min-height: fit-content;
+    }
+    .thirdmobile ul{
+        display: flex;
+        padding-top: 20px;
+position: relative;
+left: -10px;
+width: auto;
+top: 30px;
+
+    }
+    .thirdmobile ul li a h5,
+    .thirdmobile ul li p{
+        font-size: 13px;
+        color: #2d2d2d;
+        
+        text-align: center;
+        text-decoration: none;
+        width: auto;
+    }
+    .thirdmobile ul li a{
+        text-decoration: none;
+    }
+.topper{
+    width: 100%;
+    height: 200px;
+}
+.thirdmobile h1{
+    color: white;
+    background-color: #676565;
+    padding: 8px;
+    border-radius: 15px;
+
+    font-size: 17px;
+    font-family: cursive;
+    text-align: center;
+}
+}
+.thirdmobile p{
+    color: white;
+
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
     .fourth{
         position: relative;
         top: 10px;
@@ -2891,12 +3183,13 @@ left: -15px;
     }
     .seventh ul h1 {
         color: white;
-        font-size: 22px;
+        font-size: 18px;
         letter-spacing: 0.2em;
     }
     .seventh ul li a{
-        font-size: 17px;
+        font-size: 13px;
         color: rgb(36, 192, 184);
+        line-height: 20px;
         text-decoration: none;
     }
     .ads{
@@ -2969,6 +3262,9 @@ left: -15px;
     left: -px;
     word-spacing: 5px;
 }
+.statement p{
+    font-size: 15px;
+}
 
 
 
@@ -2979,17 +3275,82 @@ left: -15px;
 
 
 
+@media screen and (max-width: 393px){
+   
+    
+    .logo-ul{
+        top: -10px;
+    }
+    .pica{
+        width: 100%;
+    }
+    .third ul li{
+        width: 100%;
+    }
+    .picas{
+        height: 190px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+
+}
 
 
-
-
-
+@media screen and (max-width: 390px){
+   
+    .logo-ul{
+        top: -10px;
+    }
+    .pica{
+        width: 100%;
+    }
+    .picas{
+        height: 190px;
+    }
+    footer p{
+        font-size: 15px;
+    }
 
 
 }
 
 
 
+
+@media screen and (max-width: 384px){
+   
+.logo-ul{
+    top: -10px;
+}
+.pica{
+    width: 100%;
+}
+.picas{
+    height: 190px;
+}
+footer p{
+    font-size: 15px;
+}
+
+}
+
+
+@media screen and (max-width: 375px){
+
+.pica{
+    width: 100%;
+}
+.thirdmobile ul li h5,
+.thirdmobile ul li p{
+    text-align: center;
+    width: auto;
+}
+.picas{
+    height: 190px;
+}
+
+}
 
 
 
@@ -3005,23 +3366,27 @@ left: -15px;
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
     .logo{
-        width: 200px;
+        width: 160px;
         height: 90px;
         position: absolute;
         left: 20px;
         top: 10px;
     }
+    .logo-ul{
+        position: relative;
+        top: -10px;
+    }
     .navbar{ 
         width: auto;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 70px;
         height: 300px;
     }
     nav ul li a:hover{
@@ -3044,13 +3409,13 @@ left: -15px;
         top: 40px;
     }
     nav ul li{
-        border-bottom: 1px solid blue;
+        border-bottom: 0.003px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         letter-spacing: 0.2em;
        
@@ -3107,22 +3472,22 @@ left: -15px;
         font-family: 'Times New Roman', Times, serif;
     }
     .third ul li{
-        width: 310px;
+        width: 100%;
         height: fit-content;
         position: relative;
-        border: 1px solid red;
-        background-color: peru;
+        border: 1px solid none;
+        background-color: white;
 border-radius: 10px;
 overflow: hidden;
     }
     .pica{
-        width: 310px;
+        width: 100%;
         height: 180px;
     }
     .third{
         position: relative;
         top: 50px;
-        display: block;
+
     }
     .third ul{
         display: block;
@@ -3130,17 +3495,60 @@ overflow: hidden;
 
     }
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 18px;
-        color: white;
+        color: #2d2d2d;
         text-align: center;
         text-decoration: none;
         width: 280px;
     }
+    .statement p{
+        font-size: 15px;
+    }
+    .thirdmobile ul{
+        display: flex;
+        padding-top: 20px;
+        position: relative;
+        left: -10px;
+        width: auto;
+        top: 20px;
 
+    }
+    .thirdmobile ul li{
+        width: 160px;
+        height: fit-content;
+        position: relative;
+
+        border-radius: 5px;
+        left: -10px;
+        overflow: hidden;
+    }
+ 
+    .thirdmobile p{
+        color: #2d2d2d;
+    
+        padding: 5px;
+        border-radius: 15px;
+        padding-left: 15px;
+        padding-right: 20px;
+        font-size: 15px;
+        position: relative;
+        left: -20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .thirdmobile ul li p{
+        font-size: 13px;
+        color: #2d2d2d;
+        text-align: center;
+        position: relative;
+        left: 0px;
+        text-decoration: none;
+        width: 120px;
+    }
+.thirdmobile{
+    top: 10px;
+    height: 1320px;
+}
     .fourth{
         position: relative;
         top: 10px;
@@ -3206,11 +3614,11 @@ overflow: hidden;
     }
     .seventh ul h1 {
         color: white;
-        font-size: 22px;
+        font-size: 18px;
         letter-spacing: 0.2em;
     }
     .seventh ul li a{
-        font-size: 17px;
+        font-size: 13px;
         color: rgb(36, 192, 184);
         text-decoration: none;
     }
@@ -3298,6 +3706,9 @@ overflow: hidden;
     left: -px;
     word-spacing: 3px;
 }
+footer p{
+    font-size: 15px;
+}
 
 
 
@@ -3316,9 +3727,51 @@ overflow: hidden;
 
 }
 
+@media screen and (max-width: 353px) {
+
+    
+    
+   .pica{
+    width: 100%;
+   }
+   .picas{
+    height: 160px;
+   }
+    
 
 
 
+
+
+}
+
+
+
+@media screen and (max-width: 320px){
+
+    
+.thirdmobile{
+    height: fit-content;
+}
+.thirdmobile ul li h5,
+.thirdmobile ul li p{
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+}
+.pica{
+    width: 100%;
+    height: 150px;
+}
+.picas{
+    height: 160px;
+}
+
+
+
+
+}
 
 
 
@@ -3329,7 +3782,7 @@ overflow: hidden;
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -3342,10 +3795,10 @@ overflow: hidden;
     }
     .navbar{ 
         width: auto;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     nav ul li a:hover{
@@ -3361,22 +3814,39 @@ overflow: hidden;
     nav {
         display: block;
     }
+    header{
+        height: 30px;
+    }
+    .logo-ul{
+        top: -40px;
+    }
     .nav-toggler{
         display: block;
         position: absolute;
         right: 20px;
-        top: 40px;
+        top: 50px;
+        width: 20px;
+    }
+    .nav-toggler span{
+        width: 10px;
+    }
+    .thirdmobile{
+        display: none;
+
+    }
+    .third{
+        display: block;
     }
     nav ul li{
-        border-bottom: 2px solid blue;
+        border-bottom: 0.002px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.02em;
        
     }
     
@@ -3415,51 +3885,51 @@ overflow: hidden;
     }
     .second{
         position: relative;
-        top: 50px;
+        top: 0px;
+        text-align: center;
         width: auto;
     }
     .second ul li h1{
-        font-size: 25px;
+        font-size: 20px;
         width: auto;
-        text-align: left;
+        text-align: center;
     }
     .second ul li p{
-        font-size: 20px;
+        font-size: 16px;
         color: #2d2d2d;
         width: auto;
-        text-align: left;
+        text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
     .third ul li{
-        width: 220px;
+        width: 100%;
         height: fit-content;
         position: relative;
-        border: 1px solid red;
-        background-color: peru;
+        border: 1px solid none;
+        background-color: none;
+        border-radius: 3px;
     }
     .pica{
-        width: 220px;
-        height: 180px;
+        width: 100%;
+        height: 130px;
     }
     .third{
         position: relative;
-        top: 50px;
+        top: -20px;
         display: block;
+        height: fit-content;
     }
     .third ul{
         display: block;
         padding-top: 20px;
     }
+    .third ul li h5,
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 15px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
-        width: 220px;
+        width: 100%;
     }
 
     .fourth{
@@ -3527,11 +3997,11 @@ overflow: hidden;
     }
     .seventh ul h1 {
         color: white;
-        font-size: 22px;
+        font-size: 16px;
         letter-spacing: 0.2em;
     }
     .seventh ul li a{
-        font-size: 17px;
+        font-size: 12px;
         color: rgb(36, 192, 184);
         text-decoration: none;
     }
@@ -3618,6 +4088,13 @@ overflow: hidden;
     left: -px;
     word-spacing: 3px;
 }
+footer{
+    height: 40px;
+}
+footer p{
+    font-size: 12px;
+}
+
 
 
 
@@ -3638,7 +4115,23 @@ overflow: hidden;
 }
 
 
+@media screen and (max-width: 280px){
+   
+    
+.third ul li{
+    width: 100%;
+}
+.second ul li p{
+    font-size: 12px;
+}
+.second ul li h1{
+    font-size: 15px;
+}
 
+
+
+
+}
 
 
 
@@ -3653,7 +4146,7 @@ overflow: hidden;
     nav{
         width: auto;
         min-height: 50px;
-        background-color:  white;
+        background-color:  peru;
         display: flex;
         height: fit-content;
     }
@@ -3666,10 +4159,10 @@ overflow: hidden;
     }
     .navbar{ 
         width: auto;
-        background-color: white;
+        background-color: peru;
         display: block;
         list-style: none;
-       padding-top: 120px;
+       padding-top: 80px;
         height: 300px;
     }
     nav ul li a:hover{
@@ -3685,23 +4178,26 @@ overflow: hidden;
     nav {
         display: block;
     }
+    .logo-ul{
+        top: -45px;
+    }
     .nav-toggler{
         display: block;
         position: absolute;
         right: 20px;
-        top: 40px;
+        top: 60px;
     }
     nav ul li{
-        border-bottom: 0.5px solid blue;
+        border-bottom: 0.02px solid whitesmoke;
     }
     nav ul li a{
         text-decoration: none;
-        color: blue;
+        color: white;
         line-height: 50px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         width: 100%;
         font-size: 15px;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.02em;
        
     }
     
@@ -3756,33 +4252,33 @@ overflow: hidden;
         font-family: 'Times New Roman', Times, serif;
     }
     .third ul li{
-        width: 160px;
+        width: 190px;
         height: fit-content;
         position: relative;
-        border: 1px solid red;
-        background-color: peru;
+        
     }
     .pica{
-        width: 160px;
+        width: 190px;
         height: 120px;
+    }
+    .picas{
+        height: 150px;
     }
     .third{
         position: relative;
-        top: 50px;
+        top: -10px;
         display: block;
+        height: fit-content;
     }
     .third ul{
         display: block;
         padding-top: 20px;
     }
+    .third ul li h5,
     .third ul li p{
-    padding-left: 5px;
-
-    text-align: left;
-
         font-size: 13px;
-        color: white;
-        text-align: center;
+        color: #2d2d2d;
+        text-align: left;
         text-decoration: none;
         width: 160px;
     }
@@ -3870,11 +4366,11 @@ overflow: hidden;
     }
     .seventh ul h1 {
         color: white;
-        font-size: 18px;
+        font-size: 15px;
         letter-spacing: 0.03em;
     }
     .seventh ul li a{
-        font-size: 15px;
+        font-size: 12px;
         color: rgb(36, 192, 184);
         text-decoration: none;
     }
@@ -3967,7 +4463,9 @@ overflow: hidden;
     left: -px;
     word-spacing: 3px;
 }
-
+.flexpic{
+    height: 100px;
+}
 
 
 
