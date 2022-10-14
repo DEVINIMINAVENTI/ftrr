@@ -1,6 +1,6 @@
 
 function bling(){
-  setTimeout("location.href='https://www.handouts.store'",1000);
+  setTimeout("location.href='https://www.handouts.store/handouts/100lvl/'",1000);
 }
 
 
