@@ -1,5 +1,5 @@
 function bling(){
-  setTimeout("location.href='https://thaudray.com/4/5248611/'",1000);
+  setTimeout("location.href='https://www.handouts.store/handouts/100lvl/'",1000);
 }
 
 
